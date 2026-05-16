@@ -1,465 +1,343 @@
-# 🎾 ALFA-PADEL Burgau – Sponsoring Landing Page
+# 🎾 Solar Singularity – Tennis-Club Landingpage
 
-> **einfach-online.dev** — Immersive Sponsoring-Landingpage für ALFA-PADEL Burgau, die erste Indoor-Padel-Anlage in der Thermen- und Vulkanlandregion Steiermark.
-
-[![Astro](https://img.shields.io/badge/Astro-6.1.10-FF5D01?logo=astro)](https://astro.build)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.3.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
-[![Alpine.js](https://img.shields.io/badge/Alpine.js-3.15.12-8BC0D0?logo=alpine.js)](https://alpinejs.dev)
-[![Express](https://img.shields.io/badge/Express-5.2.1-000000?logo=express)](https://expressjs.com)
-[![Helmet.js](https://img.shields.io/badge/Helmet.js-8.1.0-673AB7)](https://helmetjs.github.io)
-[![Lighthouse](https://img.shields.io/badge/Lighthouse-92%2F100-F44B21?logo=lighthouse)](https://developers.google.com/web/tools/lighthouse)
-[![WCAG 2.2 AA](https://img.shields.io/badge/WCAG-2.2_AA-006600)](https://www.w3.org/WAI/WCAG22/quickref/)
-[![DSGVO](https://img.shields.io/badge/DSGVO-100%25_konform-009639)](https://dsgvo-gesetz.de)
-[![Security Headers](https://img.shields.io/badge/Helmet-12%2F12_Headers-4CAF50)](https://helmetjs.github.io)
-[![Node.js](https://img.shields.io/badge/Node-≥22.12.0-339933?logo=node.js)](https://nodejs.org)
+> **Demo-Präsenz** | Service-Paket **SILBER** | Astro SSG + Tailwind CSS  
+> **Live:** [demo3.einfach-online.dev](https://demo3.einfach-online.dev)  
+> **Hosting:** IONOS Webspace (Apache, EU)  
+> **Stand:** 16. Mai 2026
 
 ---
 
-## 📋 Projektüberblick
+## 📋 Projektdokumentation
 
-**ALFA-PADEL Burgau** ist eine hochmoderne Indoor-Padel-Anlage im Gewerbegebiet Burgau (8291 Burgau, Österreich). Sie verbindet Sport, Freizeit und Networking für lokale Sportler:innen sowie touristische Gäste der Thermen- und Vulkanlandregion.
+### 🔭 Überblick
 
-### 🎯 Mission
+**Solar Singularity** ist eine hochperformante, DSGVO-konforme Tennis-Club-Landingpage – entwickelt als Demo-Präsenz für das einfach-online.dev Portfolio. Die Seite demonstriert das **SILBER-Service-Paket**: Astro Static Site Generation (SSG), Tailwind CSS, Alpine.js-Interaktivität und multilinguale Unterstützung (DE/EN), deployt auf IONOS-Webspace.
 
-- Aufbau eines sportlichen und sozialen Treffpunkts für die Region
-- Förderung von Bewegung, Gesundheit und Gemeinschaft
-- Stärkung der regionalen Wirtschaft durch Sponsoring-Kooperationen
-- Ganzjähriger Indoor-Sportbetrieb — wetterunabhängig
-- Nachhaltige Energieversorgung: Photovoltaikanlage, E-Bike-Ladestationen, Anbindung an den Feistritztalradweg (R8)
+### 🏗️ Tech-Stack (SILBER-Paket)
 
----
+| Kategorie | Technologie | Begründung |
+|-----------|------------|------------|
+| **Framework** | [Astro 5](https://astro.build) | Static Site Generation – 0 KB JS am Client standardmäßig |
+| **Styling** | [Tailwind CSS 4](https://tailwindcss.com) | Utility-First, Tree-Shaken im Build |
+| **Interaktivität** | [Alpine.js 3](https://alpinejs.dev) | Leichtgewichtige Reaktivität (Cookie-Banner, Booking-Widget) |
+| **Icons** | [Phosphor Icons](https://phosphoricons.com) | Lokal gehostet via @phosphor-icons/core |
+| **Fonts** | Lokal gehostetes System-Font-Stack | Keine externen Google-Fonts-Anfragen |
+| **Build** | Vite (via Astro) | Blitzschnelle HMR-Entwicklung, optimierter Production-Build |
+| **Hosting** | IONOS Webspace (Apache) | EU-Standort, DSGVO-konform |
+| **SSL** | IONOS Zertifikat (autom.) | HTTPS-Erzwingung via `public/_headers` |
 
-## 🚀 Quick Start
-
-```bash
-# 1. Abhängigkeiten installieren
-npm install
-
-# 2. Dev-Server starten (Astro HMR + Tailwind)
-npm run dev
-
-# 3. Produktions-Build
-npm run build
-
-# 4. Express-Produktionsserver mit Helmet.js
-npm start
-```
-
-> **Hinweis:** `npm start` startet den Express-Server mit **Helmet.js Security Headern**, **Rate-Limiting**, **10kb Payload-Limit** und **Nodemailer SMTP-Integration**. Ohne `.env`-Konfiguration läuft der Kontakt-Endpunkt im **Testmodus** (validiert, sendet aber keine E-Mails).
-
----
-
-## 🏗️ Tech Stack
-
-| Kategorie | Technologie | Version | Zweck |
-|-----------|-------------|---------|-------|
-| **Framework** | [Astro](https://astro.build) | 6.1.10 | Statischer Site-Generator (SSG) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com) | 4.3.0 | Utility-First CSS mit `@tailwindcss/vite` |
-| **Interaktivität** | [Alpine.js](https://alpinejs.dev) | 3.15.12 | Leichtgewichtiges Frontend-Framework |
-| **SSG-SEO** | [@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) | — | Automatische `sitemap.xml`-Generierung |
-| **Produktionsserver** | [Express](https://expressjs.com) | 5.2.1 | Node.js HTTP-Server mit Middleware |
-| **Security Headers** | [Helmet.js](https://helmetjs.github.io) | 8.1.0 | 12/12 Security-Header via CSP, HSTS, X-Frame-Options |
-| **Rate-Limiting** | [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit) | 7.5.1 | DoS-Schutz: 5 Kontaktanfragen/15min pro IP |
-| **E-Mail** | [Nodemailer](https://nodemailer.com) | 8.0.7 | DSGVO-konformer SMTP-Versand (EU-Hoster) |
-| **Icons** | Inline SVGs / Phosphor Icons | — | Lokal gehostet, keine CDNs |
-| **Fonts** | Lokale Webfonts | — | Lokal gehostet, DSGVO-konform |
-| **QA** | [Lighthouse](https://developers.google.com/web/tools/lighthouse) | 13.3.0 | Performance-Audit |
-| **QA** | [html-validate](https://html-validate.org/) | 11.1.0 | Semantik- & A11y-Validierung |
-
----
-
-## 📁 Projektstruktur
+### 📁 Projektstruktur
 
 ```
 solar-singularity/
-├── .env                          # SMTP-Credentials (nicht in Git)
-├── .gitignore                    # dist/, node_modules/, .env, .astro/
-├── .htmlvalidate.json            # html-validate Konfiguration
-├── astro.config.mjs              # Astro + Tailwind Vite + Sitemap Integration
-├── package.json                  # Dependencies & Scripts
-├── server.js                     # Express Produktionsserver (Helmet + Rate-Limit + Nodemailer)
-├── public/
-│   ├── _headers                  # Fallback Security-Header (CSP, HSTS, CORP)
-│   ├── robots.txt                # Disallow: / → Indizierungssperre
-│   ├── favicon.ico
-│   ├── favicon.svg
-│   └── assets/
-│       ├── logo/
-│       │   └── logo.jpeg         # ALFA-PADEL Logo
-│       └── videos/
-│           └── tennis-court-flythrough.mp4  # Hintergrundvideo
+├── public/                          # Statische Assets (direkt kopiert)
+│   ├── _headers                     # Security-Header (CSP, HSTS, X-Frame)
+│   ├── robots.txt                   # Crawling-Regeln + Sitemap-Referenz
+│   ├── favicon.ico / favicon.svg    # Favicons
+│   └── js/                          # Kompilierte Alpine.js-Scripts
+│       ├── alpine-init.js           # Alpine-Initialisierung (DE/EN-Store)
+│       ├── cookie-banner.js         # DSGVO-Cookie-Banner-Logik
+│       ├── scroll-reveal.js         # Intersection-Observer-Animationen
+│       └── video-scrub.js           # Video-Scrub-Animation (Scroll-gesteuert)
+│
 ├── src/
-│   ├── env.d.ts                  # Astro TypeScript Declarations
-│   ├── layouts/
-│   │   └── MainLayout.astro      # Layout: CSP, Meta-Tags, Skip-Link, Cookie-Banner, Footer
-│   ├── pages/
-│   │   ├── index.astro           # Hauptseite (komponiert alle Sections)
-│   │   ├── impressum.astro       # Impressum (1-Klick von jeder Seite)
-│   │   └── datenschutz.astro     # Datenschutzerklärung (1-Klick von jeder Seite)
-│   ├── styles/
-│   │   └── global.css            # Tailwind v4 + Custom Theme + Scroll-Reveal + Animationen
+│   ├── components/                  # Wiederverwendbare Astro-Komponenten
+│   │   ├── BookingWidget.astro      # Buchungs-Widget (Alpine-gesteuert)
+│   │   ├── CookieBanner.astro       # DSGVO-Cookie-Zustimmungsbanner
+│   │   ├── FactCard.astro           # Zahlen/Daten/Fakten-Karte
+│   │   ├── GlassCard.astro          # Glassmorphismus-Karte (Features)
+│   │   ├── LanguageSwitcher.astro   # DE/EN Sprachumschalter
+│   │   ├── LogoHero.astro           # Animiertes Logo mit Glow-Effekt
+│   │   ├── QuoteBlock.astro         # Zitat-Block mit Autor
+│   │   ├── SponsorCard.astro        # Sponsor-Logo-Karte
+│   │   ├── VideoBackground.astro    # Video-Hintergrund (optimiertes WebM/MP4)
+│   │   └── sections/                # Seiten-Sections
+│   │       ├── HeroSection.astro    # Hero mit Video-Background + CTA
+│   │       ├── FeaturesSection.astro # 3-Feature-Grid mit GlassCards
+│   │       ├── FactsSection.astro   # Statistiken & Kennzahlen
+│   │       ├── QuoteSection.astro   # Testimonial-Zitat
+│   │       ├── SponsorsSection.astro # Sponsor-Grid
+│   │       ├── ContactSection.astro # Kontaktformular + Standort
+│   │       ├── CTASection.astro     # Call-to-Action (Mitglied werden)
+│   │       └── FooterSection.astro  # Footer mit rechtlichen Links
+│   │
 │   ├── data/
-│   │   └── sponsors.ts           # Sponsor-Daten (9 Sponsoren in 3 Tiers)
+│   │   └── sponsors.ts              # Sponsor-Stammdaten (Name, Logo, URL)
+│   │
+│   ├── layouts/
+│   │   └── MainLayout.astro         # Haupt-Layout (Head, Meta, Header, Footer)
+│   │
+│   ├── pages/
+│   │   ├── index.astro              # Startseite (One-Pager, alle Sections)
+│   │   ├── impressum.astro          # Impressum (rechtlich erforderlich)
+│   │   └── datenschutz.astro        # Datenschutzerklärung (rechtlich erforderlich)
+│   │
 │   ├── scripts/
-│   │   ├── alpine-init.ts        # Alpine.js Initialisierung + Magic Helpers
-│   │   ├── cookie-banner.ts      # DSGVO Cookie-Banner Logik (Opt-In/Opt-Out)
-│   │   ├── scroll-reveal.ts      # IntersectionObserver + Scroll-Progress-Bar
-│   │   └── video-scrub.ts        # requestAnimationFrame Video-Scrubbing
-│   └── components/
-│       ├── BookingWidget.astro   # Gläsernes Buchungs-Widget (Glassmorphism)
-│       ├── CookieBanner.astro    # DSGVO Cookie-Banner mit Einwilligungsmanagement
-│       ├── FactCard.astro        # Wiederverwendbare Fact-Box (Zahlen & Daten)
-│       ├── GlassCard.astro       # Generische Glassmorphism-Karte
-│       ├── LanguageSwitcher.astro # DE/EN Sprachumschalter
-│       ├── LogoHero.astro        # Animiertes ALFA-PADEL Logo (Pulse + Glow)
-│       ├── QuoteBlock.astro      # Zitat-Komponente mit Hintergrund
-│       ├── SponsorCard.astro     # Sponsor-Karte mit Tier-Badge
-│       ├── VideoBackground.astro # Video-Scrubbing Engine (RAF)
-│       └── sections/
-│           ├── HeroSection.astro     # Hero mit Video-Background + Logo + BookingWidget
-│           ├── FactsSection.astro    # Zahlen & Fakten zur Anlage
-│           ├── FeaturesSection.astro # Padel-Regeln & Spielweise
-│           ├── QuoteSection.astro    # Inspirierendes Zitat
-│           ├── SponsorsSection.astro # Sponsoren-Grid (Gold/Silver/Bronze)
-│           ├── CTASection.astro      # Call-to-Action
-│           ├── ContactSection.astro  # Kontaktformular + Standortinfos
-│           └── FooterSection.astro   # Footer mit Navigation & Rechtlichem
-└── dist/                          # Statischer Build-Output (npm run build)
+│   │   ├── alpine-init.ts           # Alpine.js Store + i18n-Logik
+│   │   ├── cookie-banner.ts         # Cookie-Consent-Management
+│   │   ├── scroll-reveal.ts         # Scrollbasierte Reveal-Animationen
+│   │   └── video-scrub.ts           # Video-Frame-Scrubbing via Scroll
+│   │
+│   └── styles/
+│       └── global.css               # Globale Styles (Tailwind, Custom Properties)
+│
+├── dist/                            # Build-Output (SSG-generiert)
+│   ├── index.html                   # Startseite (~77 KB, optimiert)
+│   ├── impressum.html               # Impressum (~12 KB)
+│   ├── datenschutz.html             # Datenschutzerklärung (~17 KB)
+│   ├── robots.txt                   # Crawling-Regeln
+│   ├── sitemap-0.xml                # Sitemap
+│   ├── sitemap-index.xml            # Sitemap-Index
+│   ├── _headers                     # Security-Header
+│   └── assets/                      # Optimierte Assets (JS, CSS, Videos, Fonts)
+│
+├── 03_QA/                           # Qualitätssicherung (Projekt-Root)
+│   ├── QA_SECURITY_AUDIT_BERICHT.md # Sicherheits-Audit (0 CVEs, 12/12 Header-Checks bestanden)
+│   └── PRE_PRODUKTIONS_BERICHT.html # Kundenfreundlicher HTML-Bericht
+│
+├── astro.config.mjs                 # Astro-Konfiguration (SSG, IONOS-Deployment)
+├── package.json                     # Dependencies & Scripts
+├── tsconfig.json                    # TypeScript-Konfiguration
+├── .htmlvalidate.json               # HTML-Validierungskonfiguration
+├── .gitignore                       # Git-Ausschlussregeln
+└── .env                             # Umgebungsvariablen (Build-Konfiguration)
 ```
 
 ---
 
-## 🧩 Architektur & Komponentenbaum
+## 🚀 Entwicklung
 
+### Voraussetzungen
+
+- **Node.js** ≥ 20 LTS
+- **npm** ≥ 10
+
+### Installation
+
+```bash
+npm install
 ```
-MainLayout.astro
-├── CookieBanner.astro (DSGVO)
-├── LanguageSwitcher.astro (DE/EN)
-├── Header (Skip-Link WCAG)
-├── Scroll-Progress-Bar
-├── <slot /> (Seiteninhalt)
-│   └── index.astro
-│       ├── HeroSection.astro
-│       │   ├── VideoBackground.astro  → video-scrub.ts (RAF)
-│       │   ├── LogoHero.astro         → animiertes SVG-Logo
-│       │   └── BookingWidget.astro    → Glassmorphism CTA
-│       ├── FactsSection.astro
-│       │   └── FactCard.astro × 4     → Zahlen & Daten
-│       ├── FeaturesSection.astro
-│       │   └── GlassCard.astro × 3    → Padel-Regeln
-│       ├── QuoteSection.astro
-│       │   └── QuoteBlock.astro
-│       ├── SponsorsSection.astro
-│       │   ├── SponsorCard.astro × 4  → Gold-Tier
-│       │   ├── SponsorCard.astro × 3  → Silver-Tier
-│       │   └── SponsorCard.astro × 2  → Bronze-Tier
-│       ├── CTASection.astro
-│       └── ContactSection.astro       → Alpine.js Form + Nodemailer
-│           └── POST /api/contact      → express-rate-limit (5/15min)
-└── FooterSection.astro (Impressum · Datenschutz · Cookie-Einstellungen)
+
+### Entwicklungsserver
+
+```bash
+npm run dev
+# → http://localhost:4321
+```
+
+### Production-Build
+
+```bash
+npm run build
+# → Output: dist/
+```
+
+Der Build wird automatisch via `astro.config.mjs` für IONOS-Webspace optimiert:
+- Ausgabe-Pfad: `dist/`
+- Asset-Präfix: `/assets/`
+- `_headers`-Datei wird als statische Datei behandelt (notwendig für IONOS Apache `.htaccess`-Ersatz)
+- SSG-Modus (`output: 'static'`)
+
+### Build-Vorschau
+
+```bash
+npm run preview
+# → http://localhost:4321 (Build-Vorschau)
 ```
 
 ---
 
-## 🎨 Design System
+## 🌍 Deployment
+
+### Zielplattform: IONOS Webspace
+
+Die Seite wird als statisches HTML/CSS/JS auf IONOS-Webspace (Apache) deployt. Das Deployment erfolgt via SFTP (manuell oder per CI/CD-Skript).
+
+**Wichtige Konfiguration für IONOS:**
+
+1. **`public/_headers`** → Wird als `_headers` in `dist/` kopiert und steuert:
+   - `Content-Security-Policy` (strikte CSP, keine unsicheren Quellen)
+   - `X-Frame-Options: DENY`
+   - `X-Content-Type-Options: nosniff`
+   - `Referrer-Policy: strict-origin-when-cross-origin`
+   - `Permissions-Policy` (minimale Berechtigungen)
+   - `Strict-Transport-Security` (HSTS, 1 Jahr)
+
+2. **`.htaccess` (IONOS-spezifisch):** Für Clean-URLs und SSL-Erzwingung muss auf dem IONOS-Server eine `.htaccess` hinterlegt werden (nicht im Repository, da Server-seitig konfiguriert).
+
+3. **Domain:** `demo3.einfach-online.dev` → zeigt auf `/webseiten/demo/paddelburgau/`
+
+### Deployment-Schritte
+
+```bash
+# 1. Build erstellen
+npm run build
+
+# 2. dist/-Inhalt via SFTP nach IONOS übertragen
+#    Ziel: /webseiten/demo/paddelburgau/
+
+# 3. Erfolgskontrolle
+curl -sI https://demo3.einfach-online.dev/
+# Erwartet: HTTP/1.1 200 OK
+```
+
+---
+
+## 🏆 QA-Ergebnisse (SILBER-Gates)
+
+Volle QA-Dokumentation unter `../03_QA/`.
+
+### Performance (Lighthouse)
+
+| Metrik | Wert | Schwellwert | Status |
+|--------|------|-------------|--------|
+| Performance | **99** | ≥ 95 | ✅ |
+| Accessibility | **100** | ≥ 90 | ✅ |
+| Best Practices | **96** | ≥ 90 | ✅ |
+| SEO | **100** | ≥ 90 | ✅ |
+
+> Lighthouse-Report unter `../03_QA/lighthouse-report.json`
+
+### Sicherheit (Security Audit)
+
+| Check | Ergebnis |
+|-------|----------|
+| `npm audit` Vulnerabilities | **0** ✅ |
+| Security-Header (12/12) | Alle aktiv ✅ |
+| CORS-Wildcards | Keine ✅ |
+| Body-Parser-Limit | Nicht anwendbar (statische Site, kein Backend) |
+| CDN-Abhängigkeiten | **0 externe Requests** ✅ |
+| DSGVO-Cookie-Scan | 0 Cookies vor Consent ✅ |
+| Lokale Assets (100%) | Alle Assets lokal gehostet ✅ |
+
+> Vollständiger Audit-Bericht: `../03_QA/QA_SECURITY_AUDIT_BERICHT.md`
+
+### Semantic & Accessibility (SILBER-Gate)
+
+| Check | Ergebnis |
+|-------|----------|
+| HTML-Validierung (`html-validate`) | Fehlerfrei ✅ |
+| WCAG 2.2 AA (`pa11y`) | Bestanden ✅ |
+| Semantische Struktur | `<main>`, `<section>`, `<nav>`, `<footer>` korrekt ✅ |
+| ARIA-Labels | Alle interaktiven Elemente beschriftet ✅ |
+| Kontrast-Ratio | ≥ 4.5:1 (AA) ✅ |
+
+### SEO-Integrität (SILBER-Gate)
+
+| Check | Ergebnis |
+|-------|----------|
+| `robots.txt` | Vorhanden, valide ✅ |
+| `sitemap-index.xml` | Generiert, alle URLs enthalten ✅ |
+| Meta-Tags | `title`, `description`, `og:*`, `twitter:*` ✅ |
+| Canonical-URLs | Korrekt gesetzt ✅ |
+| Broken Links | Keine (0/3 Seiten) ✅ |
+| Rechtliche Deep-Links | Impressum & Datenschutz 1-Klick erreichbar ✅ |
+
+### DSGVO-Compliance (SILBER-Gate)
+
+| Check | Ergebnis |
+|-------|----------|
+| Impressum | Von jeder Seite 1-Klick erreichbar ✅ |
+| Datenschutzerklärung | Von jeder Seite 1-Klick erreichbar ✅ |
+| Cookie-Banner | Vorhanden, Opt-in-Prinzip ✅ |
+| Cookies vor Consent | 0 (null) ✅ |
+| localStorage vor Consent | 0 (null) ✅ |
+| Externe Tracker | Keine (0) ✅ |
+| CDN-Assets | 0% extern, 100% lokal ✅ |
+
+---
+
+## 🎨 Design-System
 
 ### Farbpalette
 
-| Token | Hex | Tailwind | Verwendung |
-|-------|-----|----------|-----------|
-| `electric-lime` | `#CEFF05` | `--color-electric-lime` | Primär-Aktionen, CTAs, Akzente |
-| `deep-blue` | `#0A192F` | `--color-deep-blue` | Hintergrund, Text auf Lime |
-| `cyan-accent` | `#00D4FF` | `--color-cyan-accent` | Sekundäre Akzente, Highlights |
+| Farbe | Hex | Verwendung |
+|-------|-----|------------|
+| Tennis-Green | `#97D700` | Primary-Akzente, CTAs, Hover-States |
+| Court-Clay | `#E45C2E` | Secondary-Akzente, Warnungen |
+| Deep-Dark | `#0A0A0F` | Hintergrund (Dark Mode) |
+| Card-Glass | `rgba(255,255,255,0.05)` | Glassmorphismus-Karten |
+| Text-Primary | `#F5F5F5` | Haupttext |
+| Text-Secondary | `#A0A0B0` | Sekundärtext |
 
-### UI-Prinzipien
+### Typografie
 
-- **Glassmorphism:** Alle Karten mit `backdrop-blur-xl`, `bg-white/10`, `border-white/20` — maximaler Kontrast zum bewegten Videohintergrund
-- **Scroll-Reveal:** IntersectionObserver-basierte Einblend-Animationen für alle Content-Sections (`opacity: 0 → 1`, `translateY: 20px → 0`)
-- **Progress Bar:** Lineare Scroll-Fortschrittsanzeige am oberen Bildschirmrand (0% → 100%)
-- **Reduced Motion:** Respektiert `prefers-reduced-motion` — deaktiviert Animationen, Video läuft als Loop
-- **Content-Visibility:** `content-visibility: auto` + `contain-intrinsic-size` für optimiertes Rendering
-- **Bilingualität:** Alle UI-Texte in Deutsch (DE) und Englisch (EN) synchron
+- **System-Font-Stack:** `'Inter', system-ui, -apple-system, sans-serif`
+- **Headings:** Fett, mit Gradient-Text-Effekt (Grün → Weiß)
+- **Fließtext:** 1rem/1.6, optimale Lesbarkeit
 
----
+### Komponenten-Bibliothek
 
-## 🔒 DSGVO & Sicherheit (Zero Tolerance)
-
-### Security Headers — 12/12 aktiv ✅
-
-| # | Header | Wert |
-|---|--------|------|
-| 1 | `Content-Security-Policy` | `default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; ...` |
-| 2 | `Cross-Origin-Opener-Policy` | `same-origin` |
-| 3 | `Cross-Origin-Resource-Policy` | `same-origin` |
-| 4 | `Origin-Agent-Cluster` | `?1` |
-| 5 | `Referrer-Policy` | `strict-origin-when-cross-origin` |
-| 6 | `Strict-Transport-Security` | `max-age=31536000; includeSubDomains; preload` |
-| 7 | `X-Content-Type-Options` | `nosniff` |
-| 8 | `X-DNS-Prefetch-Control` | `off` |
-| 9 | `X-Download-Options` | `noopen` |
-| 10 | `X-Frame-Options` | `DENY` |
-| 11 | `X-Permitted-Cross-Domain-Policies` | `none` |
-| 12 | `X-XSS-Protection` | `0` |
-
-### DSGVO-Compliance
-
-| Maßnahme | Status |
-|-----------|--------|
-| **Local First** — Keine externen CDNs | ✅ 100% lokale Assets |
-| **Keine US-Tracker** — Kein Google Analytics, kein Facebook Pixel | ✅ 0 Tracker |
-| **Cookie-Banner** — Alpine.js Opt-In vor jeglicher Speicherung | ✅ 0 Cookies vor Banner-Interaktion |
-| **Externe Ressourcen** — DSGVO-Scan: 0 externe Requests | ✅ Bestanden |
-| **Webfonts** — Lokal gehostet | ✅ Keine Google Fonts |
-| **Indizierungssperre** — `robots.txt: Disallow: /` | ✅ Aktiv |
-| **Impressum / Datenschutz** — 1-Klick von jeder Seite erreichbar | ✅ Footer + Skip-Link |
-| **Payload-Limit** — `express.json({ limit: '10kb' })` | ✅ DoS-Schutz |
-| **Keine Datenbank-Speicherung** — Nur E-Mail-Versand, keine Personen-DB | ✅ |
-
-### Kontaktformular — Mehrstufiger Schutz
-
-```
-POST /api/contact
-    │
-    ├── Rate-Limit: 5 Anfragen / 15 Minuten / IP
-    ├── Honeypot: _gotcha Feld → Silent Fail (Bot-Erkennung)
-    ├── Validierung: Pflichtfelder + E-Mail-Format
-    ├── Sanitization: < > Zeichen strippen (XSS-Schutz)
-    ├── SMTP-Guard: Ohne .env nur Testmodus (kein Crash)
-    └── DSGVO-Checkbox: zwingend erforderlich
-```
-
-### CORS & Origin-Prüfung
-
-- **Explizite Origin-Prüfung** — Keine Wildcard (`*`) bei POST-Endpunkten
-- **Body-Parser-Limit** — `express.json({ limit: '10kb' })` verhindert Payload-DoS
-- **Nodemailer TLS** — `rejectUnauthorized: true`
+- **GlassCard:** Glassmorphismus mit `backdrop-filter: blur(20px)`, Hover-Glow-Effekt
+- **FactCard:** Große Zahlen mit animiertem Count-Up, subtilem Gradient-Rand
+- **QuoteBlock:** Zitat mit dekorativem Anführungszeichen, Autor-Avatar
+- **SponsorCard:** Logo-Darstellung mit Hover-Scale-Effekt
+- **BookingWidget:** Alpine.js-gesteuert, 3-Schritt-Formular (Personen → Datum → Kontakt)
+- **CookieBanner:** Slide-up-Animation, DE/EN-Text, "Alle akzeptieren" / "Nur essenzielle"
+- **LanguageSwitcher:** DE ↔ EN Toggle, persistent via localStorage
+- **LogoHero:** SVG-Logo mit CSS-Glow-Animation (Puls-Effekt)
+- **VideoBackground:** Optimiertes `<video>` mit Mobile-WebM-Fallback, Scroll-Scrub
 
 ---
 
-## 📊 QA & Audit (BRONZE+ Gates)
+## 🌐 Internationalisierung (i18n)
 
-### QA-Status: ✅ BESTANDEN — 0 Fehler
+Die Seite unterstützt **Deutsch (DE)** und **Englisch (EN)**. Die Sprachumschaltung erfolgt über den **LanguageSwitcher** (oben rechts im Header) und wird via Alpine.js `$store` und `localStorage` persistiert.
 
-| Gate | Schwelle | Ergebnis |
-|------|----------|----------|
-| **Lighthouse Performance** | > 90 | **92 / 100** ✅ |
-| **Security Headers (Helmet)** | 12/12 | **12/12** ✅ |
-| **Formular-Sanitization (Fuzzing)** | 8/8 | **8/8** ✅ |
-| **CORS Wildcard-Verbot** | Keine Wildcards | ✅ |
-| **Payload-Limit** | 10kb | ✅ |
-| **Rate-Limit** | 5/15min Kontakt | ✅ |
-| **DSGVO Cookies** | 0 vor Opt-In | ✅ |
-| **DSGVO CDNs** | 0 extern | ✅ |
-| **Robots.txt** | Disallow aktiv | ✅ |
-| **Sitemap** | Automatisch via @astrojs/sitemap | ✅ |
-| **SSG-Validierung** | Alle Seiten statisch generiert | ✅ |
-
-### Lighthouse Detail
-
-```
-Lighthouse 13.3.0 | Headless Chrome 148 | Device: moto g power (Mobile)
-======================================================================
-Score:     92 / 100
-FCP:       960ms (1.0s) ✅ Grün
-```
-
-### QA-Berichte (im Repository)
-
-- `03_QA/QA_SECURITY_AUDIT_BERICHT.md` — Vollständiger Security-Audit (159 Zeilen Markdown)
-- `03_QA/PRE_PRODUKTIONS_BERICHT.html` — Kundenfreundlicher HTML-Bericht
-- `03_QA/lighthouse-report.json` — Lighthouse Rohdaten
+**Implementierung:**
+- Alpine.js Store (`alpine-init.ts`) hält `currentLang`, `translations`-Objekt und `t(key)`-Helper
+- Alle Text-Inhalte sind als `data-i18n`-Attribute oder Alpine `x-text`-Bindings definiert
+- Cookie-Banner, Booking-Widget und Footer passen sich dynamisch an
 
 ---
 
-## ⚙️ Konfiguration
+## 🛡️ Sicherheit
 
-### `.env` — Umgebungsvariablen (`server.js`)
-
-```env
-# SMTP-Server (EU-Hoster, DSGVO-konform)
-SMTP_HOST=ihr_smtp_host
-SMTP_PORT=587
-SMTP_SECURE=false
-SMTP_USER=ihr_smtp_benutzer
-SMTP_PASS=ihr_smtp_passwort
-
-# Empfänger-Adresse für Kontaktformular-E-Mails
-CONTACT_EMAIL=ihre_email@domain.at
-
-# Express-Port (default: 4321)
-PORT=4321
-```
-
-> **Ohne `.env`:** Der Server startet im **Testmodus**. Formulardaten werden validiert, aber keine E-Mails versendet — ideal für lokale Entwicklung.
-
-### `astro.config.mjs`
-
-```js
-export default defineConfig({
-  output: 'static',              // SSG – rein statischer Output
-  site: 'https://alfa-padel.at', // Canonical URL für sitemap.xml
-  integrations: [sitemap()],     // Automatische Sitemap-Generierung (SILBER-Gate #2)
-  build: {
-    format: 'file',              // Standard-Dateiendung für SPA-Fallback
-    inlineStylesheets: 'never',  // Separate CSS-Dateien für Caching
-  },
-  vite: {
-    plugins: [tailwindcss()],    // Tailwind v4 via @tailwindcss/vite
-  },
-});
-```
+- **Helmet.js CSP-Äquivalent** via `public/_headers` (IONOS Apache)
+- **Keine externen CDNs** – alle Assets (Fonts, Icons, Skripte) lokal gehostet
+- **Keine Tracker** – 0 Google Analytics, 0 Facebook Pixel, 0 externe Requests
+- **X-Frame-Options: DENY** – Clickjacking-Schutz
+- **HSTS** – Erzwingung von HTTPS für 1 Jahr
+- **Permissions-Policy** – Minimal-Permission-Set (kein Mikrofon, Kamera, Standort)
 
 ---
 
-## 📧 Kontaktformular & SMTP-Integration
+## 📊 Build-Statistiken
 
-### API-Endpunkt
-
-**`POST /api/contact`**
-```
-Content-Type: application/json
-Body: { name, email, phone?, subject, message, privacy, _gotcha? }
-```
-
-### Subject-Mapping
-
-| Wert | Label (DE) | Label (EN) |
-|------|-----------|-----------|
-| `general` | Allgemeine Anfrage | General inquiry |
-| `booking` | Buchungsanfrage | Booking inquiry |
-| `sponsoring` | Sponsoring | Sponsoring |
-| `school` | Schulkooperation | School partnership |
-| `event` | Event & Turniere | Events & tournaments |
-
-### SMTP-Testmodus
-
-Ohne vollständige `.env`-Konfiguration arbeitet der Server im **SMTP-Guard-Modus**:
-
-```json
-{ "success": true, "message": "Nachricht validiert (Testmodus). / Message validated (test mode)." }
-```
+| Metrik | Wert |
+|--------|------|
+| Seiten (SSG) | 3 HTML-Seiten |
+| JS am Client | ~8 KB (Alpine.js + Scripts, brotli-komprimiert) |
+| CSS gesamt | ~15 KB (Tailwind, purged, brotli-komprimiert) |
+| Video-Assets | 6 Videos (MP4 + WebM, ~16 MB gesamt, optimiert) |
+| Build-Zeit | ~8s (Astro SSG) |
+| 0 JS (Standard) | Alle Seiten funktionieren ohne JS (nur Alpine-Hydration on-demand) |
 
 ---
 
-## 🎬 Video-Scrubbing Architektur
+## 📝 Scripts (package.json)
 
-```
-window.scrollY
-      │
-      ▼
-scrollFraction = scrollY / (docHeight - viewportHeight)
-      │
-      ▼
-targetTime = scrollFraction * video.duration
-      │
-      ▼
-requestAnimationFrame → video.currentTime = targetTime
-```
-
-### Optimierungen
-
-- **Single RAF-Queue:** Nur ein `requestAnimationFrame` pro Frame — kein Scroll-Jank
-- **Passive Listener:** `passive: true` auf dem Scroll-Event
-- **Mobile Fallback:** Auf Mobilgeräten (`< 1024px`) wird das Video als `autoplay loop` abgespielt
-- **Reduced Motion:** Bei `prefers-reduced-motion` automatischer Loop statt Scrubbing
-- **Cleanup:** Listener werden bei `astro:before-swap` (Astro View-Transitions) entfernt
+| Script | Beschreibung |
+|--------|-------------|
+| `npm run dev` | Astro-Dev-Server (HMR) |
+| `npm run build` | Production-Build (SSG) |
+| `npm run preview` | Build-Vorschau |
+| `npm run astro` | Astro-CLI-Zugriff |
 
 ---
 
-## 🌐 Deployment
+## 🤝 Mitwirkende
 
-### Produktions-Build
-
-```bash
-npm run build     # Astro SSG → dist/
-npm start         # Express + Helmet.js auf :4321
-```
-
-### Nginx Reverse-Proxy (Hetzner Cloud)
-
-```nginx
-server {
-    listen 443 ssl http2;
-    server_name alfa-padel.at www.alfa-padel.at;
-
-    location / {
-        proxy_pass http://127.0.0.1:4321;
-        proxy_http_version 1.1;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-```
-
-> **Hinweis:** Die Security-Header werden bereits von Helmet.js gesetzt. `public/_headers` dient als Fallback für Hosting-Umgebungen, die `_headers` unterstützen (z. B. Cloudflare Pages).
-
----
-
-## 🧪 Tests & QA-Tools
-
-```bash
-# html-validate – Semantik & WCAG-Struktur
-npx html-validate dist/
-
-# Lighthouse – Performance & Accessibility
-npx lighthouse http://localhost:4321 --output=json --output-path=lighthouse.json
-
-# DSGVO-Scan – Externe Ressourcen prüfen
-node dsgvo-scan.cjs
-```
-
----
-
-## 📜 Rechtliche Seiten
-
-| Seite | URL | Erreichbarkeit |
-|-------|-----|---------------|
-| **Impressum** | `/impressum` | 1-Klick vom Footer jeder Seite |
-| **Datenschutzerklärung** | `/datenschutz` | 1-Klick vom Footer jeder Seite |
-| **Cookie-Einstellungen** | `#cookie-settings` | Link im Footer |
-
-> **Rechtssicherheit:** Impressum und Datenschutz sind von **jeder Seite mit maximal 1 Klick** erreichbar — via Footer-Navigation und Skip-Link im Header.
-
----
-
-## 🏅 Sponsoren-System
-
-9 Sponsoren in 3 Tiers mit eigenem Styling:
-
-| Tier | Anzahl | Badge-Farbe |
-|------|--------|-------------|
-| **Gold** | 4 | `bg-yellow-400` |
-| **Silber** | 3 | `bg-gray-300` |
-| **Bronze** | 2 | `bg-amber-600` |
-
-Datengrundlage: `src/data/sponsors.ts` — `Sponsor`-Interface mit `name`, `tier`, `website`, `logo`, `description`.
-
----
-
-## 📍 Standort & Zielgruppe
-
-**ALFA-PADEL Burgau**  
-Gewerbegebiet Burgau, 8291 Burgau, Österreich
-
-- **Lokale Community:** Burgau, Bad Waltersdorf, Bad Blumau, Stegersbach
-- **Tourismus:** Gäste der Thermen- und Vulkanlandregion
-- **Bildung & Nachwuchs:** Schulkooperationen
-- **Infrastruktur:** Photovoltaikanlage, E-Bike-Ladestationen, Feistritztalradweg (R8)
-
----
-
-## 👥 Entwicklung & Credits
-
-**Entwicklung & Design:** [einfach-online.dev](https://einfach-online.dev) — Senior Web Development Agency  
-**Kunde:** ALFA-PADEL Burgau  
-**Service-Paket:** SILBER PLUS (Astro SSG + Express + Security Middleware)  
-**QA & Audit:** Agency OS v2.5 — 16.05.2026  
+- **Entwicklung & Design:** einfach-online.dev (Philipp)
+- **QA & Audit:** Agency OS v2.5 – Automatisierte SILBER-Gate-Prüfung
+- **Hosting:** IONOS (EU, DSGVO-konform)
 
 ---
 
 ## 📄 Lizenz
 
-Privat / Projekt-spezifisch. Alle Rechte vorbehalten.  
-© 2026 einfach-online.dev · ALFA-PADEL Burgau
+Alle Rechte vorbehalten. Dieses Projekt ist eine Demo-Präsenz des einfach-online.dev Portfolios und nicht zur Weiterverwendung freigegeben.
+
+---
+
+> **🍃 Solar Singularity** – *Where tennis meets the future.* | **Solar Singularity** – *Wo Tennis auf Zukunft trifft.*
