@@ -277,14 +277,14 @@ FCP:       960ms (1.0s) ✅ Grün
 
 ```env
 # SMTP-Server (EU-Hoster, DSGVO-konform)
-SMTP_HOST=smtp.ionos.de
+SMTP_HOST=ihr_smtp_host
 SMTP_PORT=587
 SMTP_SECURE=false
-SMTP_USER=kontakt@alfa-padel.at
-SMTP_PASS=******
+SMTP_USER=ihr_smtp_benutzer
+SMTP_PASS=ihr_smtp_passwort
 
 # Empfänger-Adresse für Kontaktformular-E-Mails
-CONTACT_EMAIL=kontakt@alfa-padel.at
+CONTACT_EMAIL=ihre_email@domain.at
 
 # Express-Port (default: 4321)
 PORT=4321
