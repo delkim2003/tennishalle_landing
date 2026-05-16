@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "chrome-launcher": "^1.2.1",
+    "html-validate": "^11.1.0",
+    "lighthouse": "^13.3.0",
+    "pa11y": "^9.1.1"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.3.3"
+  }
+}

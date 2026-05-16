@@ -1,0 +1,39 @@
+---
+export interface Props {
+  variant?: 'hero' | 'inline' | 'footer';
+  class?: string;
+}
+
+const { variant = 'inline', class: className = '' } = Astro.props;
+
+const baseClasses = 'inline-flex items-center gap-3 font-bold text-sm uppercase tracking-wider rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-deep-blue';
+
+const variantClasses = {
+  hero: 'px-10 py-5 bg-electric-lime text-deep-blue hover:bg-white hover:shadow-[0_0_50px_rgba(206,255,5,0.5)] animate-pulse-slow focus:ring-white text-base',
+  inline: 'px-8 py-4 bg-white/5 border border-white/20 text-white hover:bg-electric-lime hover:text-deep-blue hover:border-electric-lime focus:ring-electric-lime',
+  footer: 'px-8 py-4 bg-electric-lime/20 border border-electric-lime/40 text-electric-lime hover:bg-electric-lime hover:text-deep-blue focus:ring-electric-lime'
+};
+---
+
+<div class={`${className}`}>
+  <a
+    href="https://www.alfa-padel.at/buchen"
+    target="_blank"
+    rel="noopener noreferrer"
+    class={`${baseClasses} ${variantClasses[variant]}`}
+    aria-label="Court jetzt buchen. Jetzt deinen Padel-Court reservieren."
+  >
+    <svg class="w-5 h-5" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+      <path d="M208 32H48a16 16 0 0 0-16 16v160a16 16 0 0 0 16 16h160a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16Zm0 176H48V48h160v160Z"/>
+      <path d="M120 80a8 8 0 0 1 8-8h32a8 8 0 0 1 0 16h-32a8 8 0 0 1-8-8Zm0 48a8 8 0 0 1 8-8h32a8 8 0 0 1 0 16h-32a8 8 0 0 1-8-8Zm-48-48a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16H80a8 8 0 0 1-8-8Zm0 48a8 8 0 0 1 8-8h16a8 8 0 0 1 0 16H80a8 8 0 0 1-8-8Zm0 48a8 8 0 0 1 8-8h32a8 8 0 0 1 0 16H80a8 8 0 0 1-8-8Zm96 0a8 8 0 0 1-8 8h-16a8 8 0 0 1 0-16h16a8 8 0 0 1 8 8Z"/>
+    </svg>
+    Jetzt buchen / Book Now
+    <svg class="w-4 h-4" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+      <path d="m221.66 133.66-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32Z"/>
+    </svg>
+  </a>
+  <p class="mt-3 text-xs text-slate-400">
+    Buchung über externen Dienstleister. Es gelten die Datenschutzbestimmungen des Partners. /
+    Booking via external partner. The partner's privacy policy applies.
+  </p>
+</div>

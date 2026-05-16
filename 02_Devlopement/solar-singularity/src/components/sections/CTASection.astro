@@ -1,0 +1,57 @@
+---
+import BookingWidget from '../BookingWidget.astro';
+---
+
+<section
+  class="relative z-10 py-24 md:py-32"
+  aria-labelledby="cta-heading"
+>
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent via-electric-lime/5 to-transparent pointer-events-none" aria-hidden="true"></div>
+
+  <div class="w-full px-6 md:px-12 lg:px-20">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block px-4 py-1.5 bg-electric-lime/10 border border-electric-lime/30 rounded-full text-xs font-mono font-bold uppercase tracking-widest text-electric-lime mb-6">
+        Nicht warten / Don't wait
+      </span>
+
+      <h2
+        id="cta-heading"
+        class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter text-white mb-6"
+      >
+        Dein Court wartet <span class="text-electric-lime">auf dich</span>
+      </h2>
+
+      <p class="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
+        Ob spontanes Match nach der Arbeit, familiärer Wochenendspaß oder Training mit dem Verein –
+        mit nur wenigen Klicks sicherst du dir deinen Platz auf einem unserer 4 Premium-Courts.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <BookingWidget variant="hero" />
+        <a
+          href="#contact"
+          class="inline-flex items-center gap-2 px-8 py-5 bg-white/5 border border-white/20 text-white font-bold text-sm uppercase tracking-wider rounded-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue"
+        >
+          Kontakt / Contact
+        </a>
+      </div>
+
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+        <div class="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl">
+          <div class="text-2xl font-black text-electric-lime mb-1">07:00 – 22:00</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Täglich geöffnet / Open daily</div>
+        </div>
+        <div class="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl">
+          <div class="text-2xl font-black text-cyan-accent mb-1">4 Courts</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Premium Indoor-Belag</div>
+        </div>
+        <div class="p-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl">
+          <div class="text-2xl font-black text-white mb-1">€ 25/h</div>
+          <div class="text-xs text-slate-400 uppercase tracking-wider">Ab / From € 40/2h</div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>

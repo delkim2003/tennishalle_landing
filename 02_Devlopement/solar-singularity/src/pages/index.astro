@@ -1,0 +1,30 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import VideoBackground from '../components/VideoBackground.astro';
+import HeroSection from '../components/sections/HeroSection.astro';
+import FeaturesSection from '../components/sections/FeaturesSection.astro';
+import FactsSection from '../components/sections/FactsSection.astro';
+import SponsorsSection from '../components/sections/SponsorsSection.astro';
+import CTASection from '../components/sections/CTASection.astro';
+import QuoteSection from '../components/sections/QuoteSection.astro';
+import ContactSection from '../components/sections/ContactSection.astro';
+import FooterSection from '../components/sections/FooterSection.astro';
+---
+
+<MainLayout
+  title="ALFA-PADEL Burgau – Indoor Padel in der Thermen- & Vulkanlandregion"
+  description="Erlebe Padel auf höchstem Niveau in unserer modernen Indoor-Anlage. Smart Booking, 4 Premium Courts, perfekte Bedingungen – ganzjährig in Burgau, Österreich."
+  lang="de"
+>
+  <VideoBackground fallbackPoster="/assets/videos/tennis-court-flythrough-poster.jpg" />
+  <main class="relative z-10">
+    <HeroSection />
+    <FeaturesSection />
+    <FactsSection />
+    <SponsorsSection />
+    <CTASection />
+    <QuoteSection />
+    <ContactSection />
+  </main>
+  <FooterSection />
+</MainLayout>

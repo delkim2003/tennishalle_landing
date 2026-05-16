@@ -1,0 +1,26 @@
+---
+interface Props {
+  src?: string;
+  alt?: string;
+  width?: number;
+}
+
+const {
+  src = '/assets/logo/logo.jpeg',
+  alt = 'ALFA-PADEL Burgau Logo',
+  width = 280,
+} = Astro.props;
+---
+
+<div class="logo-hero-wrapper" aria-label={alt}>
+  <div class="logo-glow" aria-hidden="true"></div>
+  <img
+    src={src}
+    alt={alt}
+    class="logo-img"
+    width={width}
+    height="auto"
+    loading="eager"
+    decoding="async"
+  />
+</div>

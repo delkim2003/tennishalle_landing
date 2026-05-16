@@ -1,0 +1,104 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout
+  title="Impressum / Legal Notice | Solar Singularity"
+  description="Impressum und rechtliche Informationen gemäß §5 TMG / Legal notice according to German law."
+  noindex={false}
+>
+  <main class="min-h-screen pt-32 pb-20 px-6 md:px-12 lg:px-20 max-w-4xl mx-auto">
+    <h1 class="text-3xl md:text-4xl font-black uppercase tracking-tighter text-white mb-8">
+      Impressum <span class="text-electric-lime">/ Legal Notice</span>
+    </h1>
+
+    <section class="space-y-8 text-slate-300">
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8">
+        <h2 class="text-xl font-bold text-white mb-4">Angaben gemäß § 5 TMG</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="text-sm font-bold uppercase tracking-wider text-electric-lime mb-2">Deutsch (DE)</h3>
+            <p class="text-slate-400 leading-relaxed">
+              Solar Singularity<br />
+              c/o einfach-online.dev<br />
+              Philipp [Nachname]<br />
+              [Straße & Hausnummer]<br />
+              [PLZ & Ort]<br />
+              Deutschland
+            </p>
+            <p class="text-slate-400 mt-4 leading-relaxed">
+              <strong class="text-white">Kontakt / Contact:</strong><br />
+              E-Mail: <a href="mailto:info@solar-singularity.de" class="text-electric-lime hover:underline">info@solar-singularity.de</a><br />
+               Telefon: <a href="tel:+490000000000" class="text-electric-lime hover:underline">+49&nbsp;(0)&nbsp;000&nbsp;0000000</a>
+            </p>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold uppercase tracking-wider text-electric-lime mb-2">English (EN)</h3>
+            <p class="text-slate-400 leading-relaxed">
+              Solar Singularity<br />
+              c/o einfach-online.dev<br />
+              Philipp [Last Name]<br />
+              [Street & Number]<br />
+              [Postal Code & City]<br />
+              Germany
+            </p>
+            <p class="text-slate-400 mt-4 leading-relaxed">
+              <strong class="text-white">Contact:</strong><br />
+              Email: <a href="mailto:info@solar-singularity.de" class="text-electric-lime hover:underline">info@solar-singularity.de</a><br />
+               Phone: <a href="tel:+490000000000" class="text-electric-lime hover:underline">+49&nbsp;(0)&nbsp;000&nbsp;0000000</a>
+            </p>
+          </div>
+        </div>
+        <p class="text-xs text-slate-500 mt-6 border-t border-white/10 pt-4">
+          Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV / Responsible for content according to § 55 Abs. 2 RStV:<br />
+          Philipp [Nachname] (Anschrift wie oben / Address as above)
+        </p>
+      </div>
+
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8">
+        <h2 class="text-xl font-bold text-white mb-4">Haftungsausschluss / Disclaimer</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-slate-400 leading-relaxed">
+          <div>
+            <h3 class="text-sm font-bold uppercase tracking-wider text-electric-lime mb-2">Haftung für Inhalte (DE)</h3>
+            <p>
+              Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+            </p>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold uppercase tracking-wider text-electric-lime mb-2">Liability for Content (EN)</h3>
+            <p>
+              The contents of our pages have been created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages in accordance with § 7 para.1 TMG under general law.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8">
+        <h2 class="text-xl font-bold text-white mb-4">Streitschlichtung / Dispute Resolution</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-slate-400 leading-relaxed">
+          <div>
+            <p>
+              Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: 
+              <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="text-electric-lime hover:underline">https://ec.europa.eu/consumers/odr</a>.
+              Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+            </p>
+          </div>
+          <div>
+            <p>
+              The European Commission provides a platform for online dispute resolution (ODR): 
+              <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="text-electric-lime hover:underline">https://ec.europa.eu/consumers/odr</a>.
+              We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="mt-10 text-center">
+      <a href="/" class="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-electric-lime transition-colors">
+        <svg class="w-4 h-4" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M224 128a8 8 0 0 1-8 8H59.31l58.35 58.34a8 8 0 0 1-11.32 11.32l-72-72a8 8 0 0 1 0-11.32l72-72a8 8 0 0 1 11.32 11.32L59.31 120H216a8 8 0 0 1 8 8Z"/></svg>
+        Zurück zur Startseite / Back to Home
+      </a>
+    </div>
+  </main>
+</MainLayout>

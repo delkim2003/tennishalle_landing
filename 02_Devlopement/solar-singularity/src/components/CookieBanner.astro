@@ -1,0 +1,44 @@
+---
+/**
+ * CookieBanner.astro
+ * DSGVO-konformes Cookie-Consent-Banner – PURE Vanilla JS (kein Alpine)
+ * Agency Standard: SILBER PLUS – Local First, keine externen CDNs
+ * 
+ * Steuerung erfolgt ausschließlich über /js/cookie-banner.js
+ */
+---
+
+<div id="cookie-banner" class="fixed bottom-0 left-0 right-0 z-[9999] p-4 md:p-6 hidden" role="dialog" aria-label="Cookie-Einwilligung" aria-hidden="true">
+  <div class="mx-auto max-w-4xl rounded-2xl border border-white/20 bg-white/10 p-6 backdrop-blur-xl shadow-2xl">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <div class="flex-1">
+        <h3 id="cookie-banner-title" class="mb-1 text-base font-semibold text-white">
+          Cookie-Einstellungen
+        </h3>
+        <p id="cookie-banner-desc" class="text-sm leading-relaxed text-white/80">
+          Wir verwenden technisch notwendige Cookies und optionale Analyse-Cookies. Du kannst deine Präferenzen jederzeit anpassen.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <button type="button" id="cookie-btn-necessary" class="rounded-lg border border-white/30 bg-white/10 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50">
+          Nur Notwendige
+        </button>
+        <button type="button" id="cookie-btn-all" class="rounded-lg bg-cyan-accent px-4 py-2 text-sm font-semibold text-deep-blue transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-cyan-accent/50">
+          Alle Akzeptieren
+        </button>
+      </div>
+    </div>
+    <div class="mt-3 border-t border-white/10 pt-3">
+      <p class="text-xs text-white/50">
+        <span id="cookie-banner-detail-de">
+          Technisch notwendige Cookies sind für den Betrieb der Website erforderlich. Analyse-Cookies helfen uns, die Website zu verbessern.
+          <a href="/datenschutz" class="underline hover:text-white/80">Datenschutzerklärung</a>
+        </span>
+        <span id="cookie-banner-detail-en" class="hidden">
+          Technically necessary cookies are required for the website to function. Analytics cookies help us improve the website.
+          <a href="/datenschutz" class="underline hover:text-white/80">Privacy Policy</a>
+        </span>
+      </p>
+    </div>
+  </div>
+</div>

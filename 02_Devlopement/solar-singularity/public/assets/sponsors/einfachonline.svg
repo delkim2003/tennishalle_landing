@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 300" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradE" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gradO" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+
+    <filter id="neon_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feGaussianBlur stdDeviation="15" result="blur3"/>
+      <feMerge>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#neon_glow)">
+    <!-- E Shape -->
+    <!-- 
+      Mathematically calculated to perfectly hug the O.
+      The right curves are arcs of a circle concentric with the O, 
+      with a radius of 120px (creating an exact 20px gap).
+      The E retains its exact original width and proportions.
+    -->
+    <path d="M 32.5 50               L 201.7 50               A 120 120 0 0 0 164.1 90               L 72.5 90               L 72.5 130               L 127.5 130               L 127.5 170               L 72.5 170               L 72.5 210               L 164.1 210               A 120 120 0 0 0 201.7 250               L 32.5 250 Z" fill="url(#gradE)" fill-opacity="0.3" stroke="url(#gradE)" stroke-width="4"/>
+    
+    <!-- O Shape -->
+    <!-- 
+      Perfect circle centered at (268, 150)
+      Outer radius: 100px
+      Inner radius: 65px
+    -->
+    <path d="M 268 50               A 100 100 0 1 1 268 250               A 100 100 0 1 1 268 50 Z               M 268 85               A 65 65 0 1 0 268 215               A 65 65 0 1 0 268 85 Z" fill="url(#gradO)" fill-opacity="0.3" stroke="url(#gradO)" stroke-width="4"/>
+  </g>
+</svg>

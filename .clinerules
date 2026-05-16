@@ -1,0 +1,98 @@
+# ============================================================================
+# EINFACH-ONLINE.DEV - AGENCY OS v2.5 (FINAL MASTER MANIFESTO - MATRIX QA)
+# ============================================================================
+# Autorität: Chef-Entwickler Philipp (Lead Developer)
+# Arbeitsumgebung: Windows (VS Code) – KEIN WSL2! (Multi-Device: PC & Laptop)
+# Agency-Core (Root): D:\00_AGENCY_CORE (NUR Agency-Ressourcen, KEINE Kundenprojekte!)
+# Projekt-Sync & Backup: Exklusiv via GitHub
+# System-Philosophie: Local First | Fort Knox Security | DSGVO-Compliance
+# ============================================================================
+
+## 1. WORKFLOW & CODE-LIEFERUNG (HÖCHSTE PRIORITÄT)
+- LESE-PFLICHT (Pre-Flight Check): Bevor eine Datei bearbeitet wird, MUSS der aktuelle Inhalt eingelesen werden, um Zerstörungen zu vermeiden. Keine Annahmen treffen.
+- NO-FRAGMENT-POLICY: Liefere bei Code-Änderungen GRUNDSÄTZLICH den kompletten, lauffähigen Code der Datei zurück. Kommentare wie "// ... rest of code" oder Platzhalter sind streng untersagt.
+- BILINGUALITÄT: Alle technischen Erklärungen, Texte, UI-Elemente und Komponenten müssen synchron in Deutsch (DE) und Englisch (EN) bereitgestellt werden.
+- MULTI-DEVICE SYNC: Da die Entwicklung fließend zwischen PC und Laptop stattfindet, werden alle Kundenprojekte zwingend und regelmäßig auf GitHub gepusht. D:\00_AGENCY_CORE bleibt von Kunden-Code absolut unangetastet.
+
+## 2. KI-KONFIGURATION & MCP-SERVER (ZWINGENDER EINSATZ)
+Du hast Zugriff auf lokale MCP-Server. Deren Nutzung ist für den Agentur-Standard verpflichtend:
+- Sequential Thinking: Zwingende logische Vorplanung! Bevor komplexe Funktionen (z.B. JWT Auth, API-Routen, Datenbank-Schemas, automatisierte Testskripte) codiert werden, MUSST du den Gedankengang schrittweise strukturieren.
+- Filesystem-Server: Nutze diesen für den Transfer von Blueprints aus `D:\00_AGENCY_CORE\01_Blueprints` in den aktuellen lokalen Projekt-Workspace.
+- Automatisierung: Eigenständige `.env`-Erstellung (z.B. JWT_SECRET Generierung) erfolgt über freigegebene lokale Skripte/MCPs.
+
+## 3. PROJEKT-ORGANISATION & ORDNERSTRUKTUR
+Jedes Kundenprojekt liegt in einem lokalen Arbeitsverzeichnis (gesichert via GitHub) und folgt dem Schema: `Projektname_Kundenname`.
+Die Struktur innerhalb des Kundenprojekts:
+- 01_Design/          (Assets, Brand-Guidelines, Rohdaten)
+- 02_Development/     (Der aktive Code-Arbeitsbereich)
+- 03_QA/              (Audit-Berichte, Testprotokolle, V15 Deep Audit Reports, Automatisierte JSON-Logs)
+
+Interne Struktur innerhalb von `02_Development/`:
+- /client             (Frontend: Vite, React, Astro, Next.js etc.)
+- /server             (Backend: Node.js, Express, API-Logik)
+- /docker             (Dockerfiles, lokale Nginx-Configs, Deployment-Scripts)
+- docker-compose.yml  (Zentrale Steuerung im Root von 02_Development)
+
+## 4. FRONTEND- & PERFORMANCE-STANDARDS (VIBE CODING)
+- Tech-Stack: Vite, React, Astro, Next.js, Tailwind CSS.
+- Performance (CLS-Schutz): Bilder NUR als WebP oder AVIF. Jedes Medium erfordert zwingend feste `width` und `height` Attribute im Code (keine Layout-Shifts).
+- Icons: Ausschließlich @phosphor-icons/react oder lucide-react (Zwingend lokal gehostet).
+- Lighthouse-Vorgabe: Scores > 90 in allen Kategorien (Bei reinen Static-Sites > 95). Volle WCAG 2.2 AA Konformität zwingend.
+
+## 5. DSGVO & SICHERHEIT (ZERO TOLERANCE)
+- Local First: Keine externen CDNs! Webfonts, Skripte und Icons werden zwingend lokal im Projektverzeichnis gehostet.
+- Privacy: Verbot von US-Trackern (kein Google Analytics). Nur Plausible oder Matomo (lokal).
+- Legal: Impressum und Datenschutzerklärung müssen von jeder Seite mit maximal 1 Klick erreichbar sein.
+- Backend-Härtung: Express-Backends nutzen zwingend helmet.js (strikte CSP) und express-rate-limit (100 Anfragen/15 Min). Passwörter werden via bcrypt/Argon2 asymmetrisch gehasht.
+- CORS-Sicherheit: REST-Schnittstellen müssen explizite Origin-Prüfungen durchführen. Unkontrollierte Wildcards (`*`) bei POST/PUT-Endpunkten sind untersagt.
+- Payload-Schutz: Express-Schnittstellen limitieren die Body-Größe zwingend auf ein Minimum (z.B. `express.json({ limit: '10kb' })`), um DoS-Attacken vorzubeugen.
+- Standort: Hosting physisch ausschließlich innerhalb der EU. BRONZE und SILBER verbleiben auf IONOS-Infrastrukturen; SILBER PLUS und GOLD laufen auf der Hetzner Cloud (externe Datenbanken wie MongoDB Atlas strikt in Region Frankfurt).
+
+## 6. INFRASTRUKTUR & DEPLOYMENT
+- Tailscale-Absicherung: Infrastruktur ist auf maximale Isolierung ausgelegt. Admin-Interfaces (NPM, Portainer, DBs) sind NUR über Tailscale-IPs erreichbar. Keine offenen Ports zum öffentlichen Internet (außer 80/443 für Web-Traffic).
+- Proxy-Netzwerk: Dienste werden in das zentrale Docker-Netzwerk des Nginx Proxy Managers (NPM) eingebunden.
+- Server-Pfade (Hetzner Apps):
+  - `/opt/proxy`        (Zentrales Proxy-Netzwerk & Zertifikatsmanagement)
+  - `/var/www/`         (Basis für Kunden-Deployments, strikt separiert)
+  - `/opt/agency/apps/` (Spezifischer App-Pfad pro Projekt)
+- Docker (GOLD-Stack): Multi-Stage Builds für minimale Image-Größen. Blueprints (z.B. docker-compose.yml) werden aus D:\00_AGENCY_CORE\01_Blueprints bezogen.
+- No-Data-Loss: Zerstörerische Aktionen erfordern `SEED_CLEAN_DEMO=true` und eine vorab geprüfte Backup-Routine. Keine Push-Deployments ohne lokalen fehlerfreien Docker-Test.
+
+## 7. SERVICE-PAKETE (TECH-STACK DEFINITION)
+- BRONZE: HTML5, Tailwind CSS, Alpine.js, IONOS Webspace, PHP-Mailer (Fokus: Speed / Hosting: IONOS).
+- SILBER: Astro oder Next.js (SSG), IONOS Cloud/Hosting (Fokus: SEO / Hosting: IONOS).
+- SILBER PLUS: Astro/Next.js, Directus CMS, lokale MariaDB via Docker Volumes (Hosting: Hetzner Cloud).
+- GOLD: MERN-Stack (Express, React, Node.js). JWT Bearer Auth (max. 2h Laufzeit). Deployment via Docker-Compose (Hosting: Hetzner Cloud).
+
+## 8. PAKETSPEZIFISCHE QA-MATRIX & KUNDENZENTRIERTES AUDIT
+Vor jedem Release MUSS das Deep Audit basierend auf dem gewählten Service-Paket ausgeführt und die Protokolle unter `03_QA/` als JSON/Markdown hinterlegt werden. Ein Release ist blockiert, wenn ein Test fehlschlägt. Der generierte HTML-Bericht MUSS technische Fakten kundenfreundlich erklären (Recht, Performance, Sicherheit).
+
+### [BRONZE-QA GATES]
+1. Performance: Lighthouse Score > 95 in "Performance".
+2. Semantik & A11y: `html-validate` für fehlerfreie Struktur. `pa11y` für WCAG 2.2 AA Konformität.
+3. DSGVO-Sicherheit: Lokaler Asset-Scraper verifiziert, dass 100% aller Ressourcen lokal liegen (0 externe CDN-Anfragen).
+4. Privacy: Puppeteer-Bot validiert, dass `page.cookies()` und `localStorage.length` vor der Interaktivität des Cookie-Banners exakt 0 betragen.
+5. Formular-Check: Automatisierte Validierung des Mailers auf korrekte Sanierung und Honeypot-Spamschutz.
+
+### [SILBER-QA GATES]
+1. Alle BRONZE-QA Gates müssen vollständig erfüllt sein.
+2. SEO-Integrität: Automatisierter Link-Crawler prüft `dist/` auf Broken Links (404-Vermeidung) und validiert `sitemap.xml` und `robots.txt`.
+3. Routing-Check: Überprüfung des SPA-Fallbacks bzw. der Routen für rechtliche Deep-Links (Impressum/Datenschutz 1-Klick).
+4. SSG-Validierung: Prüfung, ob alle Astro/Next.js-Seiten korrekt statisch generiert wurden.
+
+### [SILBER-PLUS-QA GATES]
+1. Alle SILBER-QA Gates müssen vollständig erfüllt sein.
+2. CMS-Kopplung: Integrationstest mit Directus CMS. Validierung stabiler API-Abfragen und Resilience-Fallback.
+3. Docker & DB-Integrität: Überprüfung der Docker-Volumes auf persistenten Storage und Isolation im `/opt/proxy` Netzwerk.
+4. Security Headers: Validierung der Konfiguration auf vollständigen Sync mit HSTS und CSP.
+
+### [GOLD-QA GATES]
+1. Alle SILBER-PLUS-QA Gates müssen vollständig erfüllt sein.
+2. Full Security Header Test: `curl -sI` Prüfung gegen das Backend. Alle 12/12 Header (Helmet.js) müssen aktiv sein.
+3. Dependency Audit: `npm audit --json` MUSS 0 Vulnerabilities aufweisen.
+4. API Fuzzing & Sanitization: XSS-Payloads `<script>`, SQL-Fragmente, Body > 1MB. Server darf nicht crashen oder Code reflektieren.
+5. Auth-Sicherheit: Verifikation des JWT-Handlings (HttpOnly Cookies, max. 2h Laufzeit, bcrypt/Argon2 Hashing).
+6. CORS & Payload Gates: Validierung, dass CORS keine Wildcards zulässt und Body-Parser auf `limit: '10kb'` limitiert ist.
+
+### [UNIVERSAL CLEANUP GATE - MANDATORY]
+- WORKSPACE-BEREINIGUNG: Unmittelbar nach erfolgreichem Abschluss aller Gates und erfolgreicher Ablage der beiden Berichte im `03_QA/`-Ordner MUSS die KI sämtliche für dieses Audit temporär erzeugten Hilfsskripte, Testdateien und Fuzzing-Payloads restlos löschen. Es dürfen absolut keine Dateileichen im Workspace verbleiben.

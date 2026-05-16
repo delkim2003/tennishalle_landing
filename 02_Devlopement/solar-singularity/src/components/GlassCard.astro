@@ -1,0 +1,36 @@
+---
+export interface Props {
+  accentColor?: 'lime' | 'cyan' | 'orange';
+  class?: string;
+  ariaLabel?: string;
+}
+
+const {
+  accentColor = 'lime',
+  class: className = '',
+  ariaLabel
+} = Astro.props;
+
+const colorMap = {
+  lime: 'border-electric-lime/50',
+  cyan: 'border-cyan-accent/50',
+  orange: 'border-orange-400/50',
+};
+
+const accentMap = {
+  lime: 'text-electric-lime',
+  cyan: 'text-cyan-accent',
+  orange: 'text-orange-400',
+};
+---
+
+<article
+  class={`p-6 md:p-8 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl hover:shadow-electric-lime/10 transition-all duration-500 hover:scale-[1.02] ${colorMap[accentColor]} ${className}`}
+  aria-label={ariaLabel}
+>
+  <slot name="icon" />
+  <slot name="title" />
+  <slot name="content" />
+  <slot name="meta" />
+  <slot />
+</article>

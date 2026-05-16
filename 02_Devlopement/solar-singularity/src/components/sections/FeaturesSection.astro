@@ -1,0 +1,102 @@
+---
+const features = [
+  {
+    icon: `<svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M240 120a8 8 0 0 1-8 8h-16v16a8 8 0 0 1-16 0v-16h-16a8 8 0 0 1 0-16h16V96a8 8 0 0 1 16 0v16h16a8 8 0 0 1 8 8Zm-112-72a32 32 0 1 0-32 32 32 32 0 0 0 32-32Zm0 48a48 48 0 1 1 48-48 48.05 48.05 0 0 1-48 48Zm-80 48a32 32 0 1 0-32 32 32 32 0 0 0 32-32Zm0 48a48 48 0 1 1 48-48 48.05 48.05 0 0 1-48 48Zm160 0a32 32 0 1 0-32 32 32 32 0 0 0 32-32Zm0 48a48 48 0 1 1 48-48 48.05 48.05 0 0 1-48 48Z"/></svg>`,
+    label: "Region / Location",
+    title: "Im Herzen des Vulkanlands",
+    desc: "Zwischen Heilthermen, sanften Hügeln und dem Feistritztalradweg R8 – direkt im Gewerbegebiet Burgau, nur Minuten von Bad Waltersdorf, Bad Blumau & Stegersbach.",
+    accent: "electric-lime",
+  },
+  {
+    icon: `<svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M224 128a8 8 0 0 1-8 8H40a8 8 0 0 1 0-16h176a8 8 0 0 1 8 8ZM101.66 53.66l-32-32A8 8 0 0 0 56 32v32a8 8 0 0 0 16 0V56.69l20.69 20.7a8 8 0 0 0 11.32-11.32ZM101.66 202.34a8 8 0 0 0-11.32 11.32L56 234.34V216a8 8 0 0 0-16 0v32a8 8 0 0 0 13.66 5.66l32-32a8 8 0 0 0 0-11.32ZM208 40a8 8 0 0 0-8 8v16.69l-20.69-20.7a8 8 0 0 0-11.32 11.32l32 32A8 8 0 0 0 208 84V48a8 8 0 0 0-8-8Zm0 144a8 8 0 0 0-8 8v18.34l-44.69-44.7a8 8 0 0 0-11.32 11.32l44.69 44.7H184a8 8 0 0 0 0 16h32a8 8 0 0 0 8-8v-32a8 8 0 0 0-8-8Z"/></svg>`,
+    label: "Courts / Courts",
+    title: "4 Premium Indoor-Courts",
+    desc: "Moderne Anlage mit hochwertigem Belag, ganzjährig bespielbar – unabhängig von Wetter und Jahreszeit. Perfekte Bedingungen für jede Spielstufe.",
+    accent: "cyan-accent",
+  },
+  {
+    icon: `<svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M201.54 54.46A104 104 0 0 0 54.46 201.54 104 104 0 0 0 201.54 54.46ZM190.23 190.23a88 88 0 0 1-98.32 16.88L120 200l-44 12 12-44-7.11-28.11a88 88 0 0 1 109.34 50.34ZM65.77 65.77a88 88 0 0 1 98.32-16.88l-28.11 7.11 44-12-12 44 7.11 28.11a88 88 0 0 1-109.32-50.34ZM128 112a16 16 0 1 1 16 16 16 16 0 0 1-16-16Z"/></svg>`,
+    label: "Nachhaltigkeit / Sustainability",
+    title: "Sport trifft Nachhaltigkeit",
+    desc: "Photovoltaik auf dem Dach für saubere Energie. E-Bike-Ladestation vor Ort. Direkte R8-Anbindung für autofreie Anreise. Gesundheit und Umwelt im Einklang.",
+    accent: "white",
+  },
+  {
+    icon: `<svg viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M200 112a8 8 0 0 1-8 8h-40v40a8 8 0 0 1-16 0v-40H96a8 8 0 0 1 0-16h40V64a8 8 0 0 1 16 0v40h40a8 8 0 0 1 8 8Zm-72 96a64 64 0 1 1 64-64 64.07 64.07 0 0 1-64 64Zm0-112a48 48 0 1 0 48 48 48.05 48.05 0 0 0-48-48Z"/></svg>`,
+    label: "Community / Community",
+    title: "Für jeden das perfekte Match",
+    desc: "Lokale Vereine, Familien am Wochenende, Thermengäste auf Aktivurlaub, Schulen mit Bewegungsprogramm – bei ALFA-PADEL Burgau findet jeder seinen Platz.",
+    accent: "electric-lime",
+  },
+];
+
+const accentMap: Record<string, string> = {
+  "electric-lime": "text-electric-lime border-electric-lime/20 bg-electric-lime/10",
+  "cyan-accent": "text-cyan-accent border-cyan-accent/20 bg-cyan-accent/10",
+  "white": "text-white border-white/20 bg-white/10",
+};
+
+const accentDotMap: Record<string, string> = {
+  "electric-lime": "bg-electric-lime",
+  "cyan-accent": "bg-cyan-accent",
+  "white": "bg-white",
+};
+---
+
+<section
+  id="features"
+  class="relative z-10 py-24 md:py-32"
+  aria-labelledby="features-heading"
+>
+  <div class="w-full px-6 md:px-12 lg:px-20">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- Section Header -->
+      <header class="text-center mb-16 md:mb-20 reveal">
+        <span class="inline-block px-4 py-1.5 bg-white/5 border border-white/20 rounded-full text-xs font-mono font-bold uppercase tracking-widest text-slate-400 mb-6">
+          Unser Angebot / What we offer
+        </span>
+        <h2
+          id="features-heading"
+          class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tighter text-white"
+        >
+          Alles, was <span class="text-electric-lime">zählt</span>
+        </h2>
+        <p class="text-slate-400 mt-4 max-w-xl mx-auto">
+          Standort, Qualität, Nachhaltigkeit, Gemeinschaft – die vier Grundpfeiler von ALFA-PADEL Burgau.
+        </p>
+      </header>
+
+      <!-- Features Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        {features.map((f, i) => (
+          <div
+            class="group p-6 md:p-8 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl hover:bg-white/10 hover:border-white/20 hover:shadow-[0_0_40px_rgba(206,255,5,0.08)] hover:-translate-y-1 transition-all duration-500 reveal"
+            style={`transition-delay: ${i * 100}ms`}
+          >
+            <div class="flex items-start gap-5">
+              <div class={`w-14 h-14 rounded-xl flex items-center justify-center flex-shrink-0 border ${accentMap[f.accent]}`}>
+                <span class={`w-7 h-7 ${f.accent === 'white' ? 'text-white' : f.accent === 'cyan-accent' ? 'text-cyan-accent' : 'text-electric-lime'}`}>
+                  <Fragment set:html={f.icon} />
+                </span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class={`w-1.5 h-1.5 rounded-full ${accentDotMap[f.accent]}`}></span>
+                  <span class="text-xs font-mono font-bold uppercase tracking-widest text-slate-500">{f.label}</span>
+                </div>
+                <h3 class="text-xl md:text-2xl font-black text-white mb-2 leading-tight">
+                  {f.title}
+                </h3>
+                <p class="text-slate-400 leading-relaxed text-sm md:text-base">
+                  {f.desc}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </div>
+</section>

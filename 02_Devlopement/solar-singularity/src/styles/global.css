@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+@theme {
+  --color-electric-lime: #CEFF05;
+  --color-deep-blue: #0A192F;
+  --color-cyan-accent: #00D4FF;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+/* Alpine.js: hide elements before initialization */
+[x-cloak] {
+  display: none !important;
+}
+
+/* Fix: Tailwind v4 resets – prevent SVGs from blowing up */
+svg:not([class*="w-"]) {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+svg[class*="w-"] {
+  max-width: none;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Scroll-Reveal System */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px) scale(0.98);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform, opacity;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Scroll-Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #CEFF05, #00D4FF);
+  z-index: 9999;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .logo-hero-wrapper {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+  .logo-glow {
+    animation: none;
+    opacity: 0.3;
+  }
+}
+
+/* === Performance: content-visibility auto nur auf Section OHNE .reveal-Kinder === */
+/* Hinweis: content-visibility: auto auf <section> deaktiviert IntersectionObserver für .reveal-Kinder */
+/* Stattdessen nutzen wir contain: layout style paint für GPU-Compositing ohne Observer-Blockade */
+section {
+  contain: layout style paint;
+}
+
+/* === BookingWidget: Pulse Animation === */
+@keyframes pulse-slow {
+  0%, 100% { box-shadow: 0 0 20px rgba(206, 255, 5, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(206, 255, 5, 0.6); }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+
+/* === LogoHero === */
+.logo-hero-wrapper {
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(28px) scale(0.94);
+  animation: logoReveal 1.4s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
+}
+.logo-glow {
+  position: absolute;
+  inset: -25%;
+  background: radial-gradient(
+    circle at center,
+    rgba(206, 255, 5, 0.1) 0%,
+    rgba(0, 212, 255, 0.05) 40%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  animation: pulseGlow 6s ease-in-out infinite;
+  animation-delay: 1.8s;
+  pointer-events: none;
+  z-index: -1;
+  filter: blur(12px);
+}
+.logo-img {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.4));
+}
+@keyframes logoReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes pulseGlow {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 1; }
+}
+

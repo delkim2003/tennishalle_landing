@@ -1,0 +1,115 @@
+---
+import BookingWidget from '../BookingWidget.astro';
+import LogoHero from '../LogoHero.astro';
+---
+
+<section
+  class="relative z-10 min-h-screen flex items-center"
+  aria-labelledby="hero-heading"
+>
+  <div class="w-full px-6 md:px-12 lg:px-20 py-20">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+
+      <!-- Text Content -->
+      <div class="order-1">
+        <!-- Animated Logo -->
+        <div class="mb-8">
+          <LogoHero width={240} />
+        </div>
+
+        <div class="inline-flex items-center gap-2 px-4 py-2 bg-electric-lime/10 border border-electric-lime/30 rounded-full mb-8">
+          <span class="w-2 h-2 bg-electric-lime rounded-full animate-pulse"></span>
+          <span class="text-xs font-mono font-bold uppercase tracking-widest text-electric-lime">
+            Jetzt geöffnet / Now Open
+          </span>
+        </div>
+
+        <h1
+          id="hero-heading"
+          class="text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.9] text-white mb-6"
+        >
+          ALFA-<span class="text-electric-lime">PADEL</span><br />
+          <span class="text-cyan-accent text-4xl md:text-5xl lg:text-6xl">Burgau</span>
+        </h1>
+
+        <div class="text-lg md:text-xl text-slate-300 max-w-lg mb-8 leading-relaxed space-y-4">
+          <p>
+            Im Herzen der Steiermark, zwischen den Heilthermen der Region und den sanften Hügeln des Vulkanlands,
+            entsteht ein neuer sportlicher Treffpunkt: <strong class="text-white">ALFA-PADEL Burgau</strong>.
+          </p>
+          <p>
+            4 moderne Indoor-Courts mit Premium-Belag, ganzjährig bespielbar – direkt im Gewerbegebiet Burgau,
+            nur wenige Minuten von <strong class="text-white">Bad Waltersdorf, Bad Blumau und Stegersbach</strong> entfernt.
+          </p>
+          <p>
+            Mit direkter Anbindung an den <strong class="text-white">Feistritztalradweg R8</strong>,
+            <strong class="text-white">E-Bike-Ladestation</strong> vor Ort und <strong class="text-white">Photovoltaik</strong> auf dem Dach
+            verbinden wir Sport, Gesundheit und regionale Lebensqualität auf nachhaltige Weise.
+          </p>
+          <p class="text-electric-lime font-medium">
+            Egal ob lokaler Verein, Thermengast auf Aktivurlaub, Familie am Wochenende oder Schule mit
+            Bewegungsprogramm – bei uns findet jeder sein perfektes Match.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+          <BookingWidget variant="hero" />
+
+          <a
+            href="#facts"
+            class="inline-flex items-center gap-2 px-8 py-5 bg-white/5 border border-white/20 text-white font-bold text-sm uppercase tracking-wider rounded-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue"
+          >
+            Mehr erfahren / Explore
+            <svg class="w-4 h-4" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">
+              <path d="m205.66 149.66-72 72a8 8 0 0 1-11.32 0l-72-72a8 8 0 0 1 11.32-11.32L120 198.69V40a8 8 0 0 1 16 0v158.69l58.34-58.35a8 8 0 0 1 11.32 11.32Z"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 pt-8 border-t border-white/10">
+          <div>
+            <div class="text-2xl md:text-3xl font-black text-electric-lime">4</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider mt-1">Courts</div>
+          </div>
+          <div>
+            <div class="text-2xl md:text-3xl font-black text-cyan-accent">Indoor</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider mt-1">Ganzjährig</div>
+          </div>
+          <div>
+            <div class="text-2xl md:text-3xl font-black text-white">PV</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider mt-1">Solarstrom</div>
+          </div>
+          <div>
+            <div class="text-2xl md:text-3xl font-black text-electric-lime">E-Bike</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider mt-1">Ladestation</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Booking CTA -->
+      <div class="order-2 flex justify-center lg:justify-end" id="booking">
+        <div class="w-full max-w-md p-8 md:p-10 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl text-center">
+          <h2 class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white mb-4">
+            Bereit für dein <span class="text-electric-lime">Match?</span>
+          </h2>
+          <p class="text-slate-300 mb-8 leading-relaxed">
+            Reserviere jetzt deinen Court und erlebe Padel in der Thermen- & Vulkanlandregion.
+            Schnell, unkompliziert – direkt über unseren Buchungspartner.
+          </p>
+          <BookingWidget variant="inline" class="justify-center" />
+          <div class="mt-6 pt-6 border-t border-white/10 grid grid-cols-2 gap-4 text-center">
+            <div>
+              <div class="text-lg font-black text-electric-lime">€ 25</div>
+              <div class="text-xs text-slate-400">/ Std. / hour</div>
+            </div>
+            <div>
+              <div class="text-lg font-black text-cyan-accent">€ 40</div>
+              <div class="text-xs text-slate-400">/ 2 Std. / 2 hours</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

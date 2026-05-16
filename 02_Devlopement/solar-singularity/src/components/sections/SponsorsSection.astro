@@ -1,0 +1,275 @@
+---
+/**
+ * SponsorsSection.astro – Infinite Marquee Grid
+ * 
+ * Zwei gegenläufige Logo-Zeilen mit nahtlosem CSS-Loop.
+ * Hover pausiert die Animation (animation-play-state: paused).
+ * prefers-reduced-motion: statisches Grid statt Animation.
+ * 
+ * Sponsoren-Daten sind lokal definiert – keine Abhängigkeit zu sponsors.ts (Footer-Schutz).
+ */
+
+interface SponsorLogo {
+  name: string;
+  logoPath: string;
+  alt: string;
+  url: string;
+}
+
+const row1: SponsorLogo[] = [
+  {
+    name: 'einfach-online.dev',
+    logoPath: '/assets/images/logos/einfach-online.dev-logo.svg',
+    alt: 'einfach-online.dev Logo',
+    url: 'https://einfach-online.dev',
+  },
+  {
+    name: 'Heiltherme Bad Waltersdorf',
+    logoPath: '/assets/images/logos/heiltherme.at-logo-heiltherme.svg',
+    alt: 'Heiltherme Bad Waltersdorf Logo',
+    url: 'https://www.heiltherme.at',
+  },
+  {
+    name: 'Hotel & Spa Der Steirerhof',
+    logoPath: '/assets/images/logos/steirerhof.at-logo.svg',
+    alt: 'Hotel & Spa Der Steirerhof Logo',
+    url: 'https://www.steirerhof.at',
+  },
+  {
+    name: 'Vulkanland Steiermark',
+    logoPath: '/assets/images/logos/vulkanland.at-logo-vulkanland.png',
+    alt: 'Vulkanland Steiermark Logo',
+    url: 'https://www.vulkanland.at',
+  },
+  {
+    name: 'Raiffeisenbank Thermenregion',
+    logoPath: '/assets/images/logos/raiffeisen.at-rb-thermenregion.svg',
+    alt: 'Raiffeisenbank Thermenregion Logo',
+    url: 'https://www.raiffeisen.at',
+  },
+];
+
+const row2: SponsorLogo[] = [
+  {
+    name: 'Tischlerei Zotter',
+    logoPath: '/assets/images/logos/tischlerei-zotter.at-logo.svg',
+    alt: 'Tischlerei Zotter Logo',
+    url: 'https://www.tischlerei-zotter.at',
+  },
+  {
+    name: 'Busreisen Postl',
+    logoPath: '/assets/images/logos/postl-reisen.at-logo.png',
+    alt: 'Busreisen Postl Logo',
+    url: 'https://www.postl-reisen.at',
+  },
+  {
+    name: 'Nah & Frisch Burgau',
+    logoPath: '/assets/images/logos/nahundfrisch.at-logo.svg',
+    alt: 'Nah & Frisch Burgau Logo',
+    url: 'https://www.nahundfrisch.at',
+  },
+  {
+    name: 'Steirische Vulkanlandbrauerei (LAVA Bräu)',
+    logoPath: '/assets/images/logos/lavabraeu.at-logo.svg',
+    alt: 'Steirische Vulkanlandbrauerei Logo',
+    url: 'https://www.lavabraeu.at',
+  },
+];
+---
+
+<section
+  class="marquee-section relative z-10 py-16 md:py-20 border-t border-white/10 bg-deep-blue/40 backdrop-blur-sm"
+  aria-label="Sponsoren & Partner – Unendliches Logo-Band / Sponsors & Partners – Infinite Logo Marquee"
+>
+  <div class="w-full px-6 md:px-12 lg:px-20">
+    <div class="max-w-7xl mx-auto">
+
+      <!-- Section Header -->
+      <div class="text-center mb-10 md:mb-14">
+        <p class="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 mb-3">
+          Premium Partner / Premium Partners
+        </p>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tighter text-white">
+          Unser <span class="text-electric-lime">Netzwerk</span> / Our <span class="text-cyan-accent">Network</span>
+        </h2>
+      </div>
+
+      <!-- ============================================ -->
+      <!-- ROW 1: right → left                          -->
+      <!-- ============================================ -->
+      <div class="marquee-container relative overflow-hidden mb-6 rounded-xl border border-white/5 bg-white/[0.02] py-5">
+        <div
+          class="marquee-track marquee-track-left flex items-center gap-8 md:gap-12 lg:gap-16 w-max"
+        >
+          {row1.map((s) => (
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="marquee-logo group flex-shrink-0 flex items-center justify-center w-[180px] h-[45px] opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-500 ease-out hover:scale-105 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+              aria-label={s.name}
+            >
+              <img
+                src={s.logoPath}
+                alt={s.alt}
+                width="180"
+                height="45"
+                loading="lazy"
+                class="max-w-full max-h-full object-contain"
+                decoding="async"
+              />
+            </a>
+          ))}
+          <!-- Duplicate for seamless loop -->
+          {row1.map((s) => (
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="marquee-logo group flex-shrink-0 flex items-center justify-center w-[180px] h-[45px] opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-500 ease-out hover:scale-105 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+              aria-label={s.name}
+              aria-hidden="true"
+            >
+              <img
+                src={s.logoPath}
+                alt={s.alt}
+                width="180"
+                height="45"
+                loading="lazy"
+                class="max-w-full max-h-full object-contain"
+                decoding="async"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- ============================================ -->
+      <!-- ROW 2: left → right                          -->
+      <!-- ============================================ -->
+      <div class="marquee-container relative overflow-hidden rounded-xl border border-white/5 bg-white/[0.02] py-5">
+        <div
+          class="marquee-track marquee-track-right flex items-center gap-8 md:gap-12 lg:gap-16 w-max"
+        >
+          {row2.map((s) => (
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="marquee-logo group flex-shrink-0 flex items-center justify-center w-[180px] h-[45px] opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-500 ease-out hover:scale-105 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+              aria-label={s.name}
+            >
+              <img
+                src={s.logoPath}
+                alt={s.alt}
+                width="180"
+                height="45"
+                loading="lazy"
+                class="max-w-full max-h-full object-contain"
+                decoding="async"
+              />
+            </a>
+          ))}
+          <!-- Duplicate for seamless loop -->
+          {row2.map((s) => (
+            <a
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="marquee-logo group flex-shrink-0 flex items-center justify-center w-[180px] h-[45px] opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-500 ease-out hover:scale-105 focus:outline-none focus:ring-2 focus:ring-electric-lime focus:ring-offset-2 focus:ring-offset-deep-blue rounded"
+              aria-label={s.name}
+              aria-hidden="true"
+            >
+              <img
+                src={s.logoPath}
+                alt={s.alt}
+                width="180"
+                height="45"
+                loading="lazy"
+                class="max-w-full max-h-full object-contain"
+                decoding="async"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <!-- Sponsoring CTA -->
+      <div class="mt-10 text-center">
+        <a
+          href="#contact"
+          class="inline-flex items-center gap-2 text-xs text-slate-500 hover:text-electric-lime transition-colors duration-300 font-mono uppercase tracking-wider"
+        >
+          <svg class="w-3.5 h-3.5" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M128 24a104 104 0 0 0-36.72 200.72 8 8 0 0 0 5.7-14.94 88 88 0 1 1 62.08 0 8 8 0 0 0 5.7 14.94A104.11 104.11 0 0 0 128 24Z"/></svg>
+          Partner werden? / Become a partner?
+          <svg class="w-3.5 h-3.5" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24Zm45.66 109.66-32 32a8 8 0 0 1-11.32-11.32L148.69 136H88a8 8 0 0 1 0-16h60.69l-18.35-18.34a8 8 0 0 1 11.32-11.32l32 32a8 8 0 0 1 0 11.32Z"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ── Marquee Animations ─────────────────────────────── */
+
+  @keyframes marquee-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .marquee-track-left {
+    animation: marquee-left 40s linear infinite;
+  }
+
+  .marquee-track-right {
+    animation: marquee-right 40s linear infinite;
+  }
+
+  /* ── Pause on Hover ─────────────────────────────────── */
+  .marquee-section:hover .marquee-track-left,
+  .marquee-section:hover .marquee-track-right {
+    animation-play-state: paused;
+  }
+
+  /* ── Reduced Motion: Static Grid Fallback ───────────── */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track-left,
+    .marquee-track-right {
+      animation: none !important;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    /* Nur die erste Hälfte anzeigen (keine Duplikate) */
+    .marquee-track a[aria-hidden="true"] {
+      display: none;
+    }
+
+    /* Container-Stil für statisches Grid */
+    .marquee-container {
+      overflow: visible !important;
+      padding: 2rem !important;
+    }
+
+    .marquee-logo {
+      opacity: 0.8 !important;
+      filter: grayscale(0%) !important;
+    }
+  }
+</style>

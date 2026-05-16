@@ -1,0 +1,26 @@
+---
+export interface Props {
+  videoSrc?: string;
+  fallbackPoster?: string;
+}
+
+const { videoSrc = "/assets/videos/tennis-court-flythrough.mp4", fallbackPoster = "/assets/videos/tennis-court-flythrough-poster.jpg" } = Astro.props;
+const mobileVideoSrc = "/assets/videos/tennis-court-flythrough-mobile.mp4";
+---
+
+<div class="fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none" aria-hidden="true">
+  <video
+    id="bg-video"
+    class="absolute inset-0 w-full h-full object-cover opacity-70 max-md:hidden"
+    muted playsinline preload="auto"
+    aria-hidden="true"
+  >
+    <source src={videoSrc} type="video/mp4" media="(min-width: 768px)" />
+    <source src={mobileVideoSrc} type="video/mp4" media="(max-width: 767px)" />
+    <source src="/assets/videos/tennis-court-flythrough.webm" type="video/webm" />
+    <span class="sr-only">Hintergrundvideo Tennis-Durchflug. Background video of tennis court flythrough.</span>
+  </video>
+  {/* Mobile Fallback: Static Poster-Bild (bandbreitenschonend) */}
+  <div class="absolute inset-0 w-full h-full object-cover opacity-70 md:hidden bg-cover bg-center bg-no-repeat" style={`background-image: url('${fallbackPoster}')`} aria-hidden="true"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-deep-blue/40 via-transparent to-deep-blue/80"></div>
+</div>

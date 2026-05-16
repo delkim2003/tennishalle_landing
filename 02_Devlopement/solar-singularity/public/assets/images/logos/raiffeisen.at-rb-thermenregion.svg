@@ -1,0 +1,2948 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<script>
+    var scene = {};
+
+    function readCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1, c.length);
+        }
+        if (c.indexOf(nameEQ) == 0) {
+          return c.substring(nameEQ.length, c.length);
+        }
+      }
+      return null;
+    }
+
+    scene.match = readCookie("tdemo");
+    console.log(scene);
+  </script>
+<title>Raiffeisen » Unser Angebot für Privatkund:innen</title>
+<meta name="keywords" content="Privatkunden"/>
+<meta name="description" content="Erleben Sie Banking neu mit Raiffeisen und profitieren Sie von den innovativen Angeboten im digitalen Bereich."/>
+<meta name="template" content="cms-door-page"/>
+<meta name="format-detection" content="telephone=no"/>
+<script>
+      window.rwmConfig = {
+        employeeFunctionDisplayed: "false",
+        employeeSpecializationDisplayed: "false",
+        employeeMobileNumberDisplayed: "false",
+        currentPagePath: "L2NvbnRlbnQvcmJnL29lc3RlcnJlaWNoL3JhaWZmZWlzZW4tYXQvd2Vic2l0ZS9kZS9wcml2YXRrdW5kZW4=" || '',
+        currentPagePathPlain: "/de/privatkunden" || '',
+        currentLanguagePagePath: "L2NvbnRlbnQvcmJnL29lc3RlcnJlaWNoL3JhaWZmZWlzZW4tYXQvd2Vic2l0ZS9kZQ==" || '',
+        env: "prod",
+        paas: "https://rwm.prd.pi.r-itservices.at",
+        loginCenterPath: "https://sso.raiffeisen.at/as/authorization.oauth2",
+        currentLanguage: "de",
+        wpSearch: "false",
+        teletraderScriptPath: "https://raiff.ttweb.net/webcomponents/teletrader.js",
+        ttDetailPages: {
+          allIndices: "/de/wertpapierinformationen.html#/indices",
+          indexDetails: "/de/wertpapierinformationen.html#/details?id=",
+          searchDetails: "/de/wertpapierinformationen.html#/search/security?",
+        },
+        keplerScriptPathPrefix: "https://services.kepler.at/public",
+        blz: "",
+        bankNumber: "",
+        otVideoKey: 6
+      }
+    </script>
+<link rel="stylesheet" href="/cachableservlets/cssandjschacheservlet.1-218-2-e1b995d6d6691c33404565d49b981583c5fb60372baed231cefc36efecfb4de6/apps/settings/wcm/designs/cms/clientlib-theme-main/theme-main.bundle.css" async />
+<link rel="canonical" href="https://www.raiffeisen.at/de/privatkunden.html"/>
+<link rel="shortcut icon" href="/resources/rbg/logos/favicon.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/rbg/logos/favicon.png.imgTransformer/favIcon/xs/1620387371373/favicon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/rbg/logos/favicon.png.imgTransformer/favIcon/sm/1620387371373/favicon.png"/>
+<link rel="icon" type="image/png" sizes="96x96" href="/resources/rbg/logos/favicon.png.imgTransformer/favIcon/md/1620387371373/favicon.png"/>
+<link rel="icon" type="image/png" sizes="192x192" href="/resources/rbg/logos/favicon.png.imgTransformer/favIcon/xl/1620387371373/favicon.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/rbg/logos/favicon.png.imgTransformer/favIcon/lg/1620387371373/favicon.png"/>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-domain-script="6d0a02e5-7df7-4a03-8fd1-63070143f838" data-document-language="true" charset="UTF-8"></script>
+<script>
+        window.rwmConfig['optanonActive'] = "6d0a02e5-7df7-4a03-8fd1-63070143f838";
+
+        function OptanonWrapper() {
+          if (window.consentChanged != undefined) {
+            window.consentChanged();
+          }
+        };
+      </script>
+<script src="//assets.adobedtm.com/cc185a82bf31bed4d308c1cd57a00fb937abe0cd/satelliteLib-f9b59428d405e66bc8d2635beee9ae0bd01f526c.js"></script>
+<script>
+      try {
+        _wa = window._wa || {};
+        _wa.send = function () {
+        };
+        _wa.set = function () {
+        };
+        _wa.tags = _wa.tags || {};
+        _wa.config = {
+          active: true,
+          url: document.location.protocol + "//info.raiffeisen.at/t/track/3939373332/",
+          lib: document.location.protocol + "//info.raiffeisen.at/t/script/wa.js",
+          ak: "drb-rwm"
+        };
+        _wa.tags.pctx = "rbg/oesterreich"
+        if (_wa.config.active) {
+          var lib = document.createElement('script');
+          lib.src = _wa.config.lib;
+          lib.type = "text/javascript";
+          lib.rel = "preconnect";
+          document.getElementsByTagName("head")[0].appendChild(lib);
+        }
+      } catch (e) {
+      }
+    </script>
+<meta name="google-site-verification" content="RAJkK15lSj8RvCdDLRILt1_QWDQ-isiUezzxipeIxB4"/>
+<meta name="seobility" content="94ca78cc916671e94ee859527429488d">
+<style>
+@media (min-width: 1025px) {
+    .component-stage-slider .stage-slider.content-inner .stage-slide-content.align-left .text-wrapper, .component-stage-slider .stage-slider.content-inner .stage-slide-content.align-right .text-wrapper {
+        max-width: 40%;
+    }
+}
+</style>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Raiffeisenbank | Privatkunden"/>
+<meta property="og:url" content="https://www.raiffeisen.at/de/privatkunden.html"/>
+<meta property="og:image" content="https://www.raiffeisen.at/de/config/header-config/jcr:content/logo/image.imgTransformer/socialSharing/facebook/1777968694099/Raiffeisen+Logo+Giebelkreuz.png"/>
+<meta property="og:description"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site"/>
+<meta name="twitter:title" content="Raiffeisenbank | Privatkunden"/>
+<meta name="twitter:description"/>
+<meta name="twitter:image" content="https://www.raiffeisen.at/de/config/header-config/jcr:content/logo/image.imgTransformer/socialSharing/twitter/1777968694099/Raiffeisen+Logo+Giebelkreuz.png"/>
+</head>
+<body data-theme="theme-main" data-editmode="false" data-previewmode="false">
+<a href="#skiplinks" aria-hidden="true" hidden></a>
+<nav id="skiplinks" role="navigation" aria-label="Sprunglinks">
+<ul>
+<li class="skiplink">
+<a accesskey="0" href="#main-content">
+Zum Content springen
+</a>
+</li>
+</ul>
+</nav>
+<div class="page-wrapper">
+<div class="header-wrapper">
+<div class="headerPage basePage page basicpage">
+<div class="mobile-nav-backdrop"></div>
+<header id="header" class=" ">
+<div class="module-header  pt-metanav">
+<div class="container">
+<div class="logo header-logo-desktop header-logo">
+<div class="header-logo "><a href="/de.html">
+<img alt="zur Startseite von raiffeisen.at" width="auto" height="auto" src="/de/config/header-config/_jcr_content/logo/image.imgTransformer/logo/common/1777968694099/Raiffeisen+Logo+Giebelkreuz.png"/>
+</a>
+</div>
+</div>
+<div class="search header-search-desktop header-search">
+<span class="icon-search header-search-icon" aria-hidden="true"></span>
+<form role="search" action="/de/suche.html">
+<label for="search--input-header" class="visually-hidden">Wonach suchen Sie?</label>
+<input class="header-search-input autosuggest-search-input" data-site-id="rdg" data-minlength-autosuggest="3" autocomplete="off" aria-haspopup="true" aria-owns="generatedQuickAccessID" name="q" id="search--input-header" placeholder="Wonach suchen Sie?" data-current-node="/de/config/header-config/jcr:content/search"/>
+</form>
+<div class="component-search-autosuggest" role="region">
+<p class="no-autosuggest-results d-none" role="alert">Ihr Suchbegriff ergab keine Treffer. </p>
+<div class="label-wrapper">
+<button class="nav-back btn btn-default"><span class="icon-paging_arrow_left" aria-hidden="true"></span></button>
+<span class="label">Schnelleinstieg</span>
+</div>
+</div>
+</div>
+<div class="login-out-buttons " role="group">
+<div class="bankswitch">
+<rwm-header-bank-switch class="position-relative" params="{&#34;filter&#34;:[],&#34;ctaPrimary&#34;:{&#34;action&#34;:&#34;redirect&#34;,&#34;params&#34;:{&#34;linkTarget&#34;:&#34;_self&#34;,&#34;linkUrl&#34;:&#34;WEBSITE_URL&#34;,&#34;linkText&#34;:&#34;Zur Banken-Website&#34;}},&#34;forwardButton&#34;:{&#34;buttonStyle&#34;:&#34;btn-primary&#34;,&#34;linkText&#34;:&#34;Zur Banken-Website&#34;},&#34;headline&#34;:&#34;Bitte wählen Sie Ihre Raiffeisenbank aus&#34;,&#34;hideRoutePlaner&#34;:false,&#34;hideMap&#34;:false}">
+<div class="header-button">
+<button class="btn-clear" type="button" disabled>
+<span class="icon-circle icon-map" aria-hidden="true"></span>
+<span class="btn-text">Bank auswählen</span>
+</button>
+</div>
+</rwm-header-bank-switch>
+</div>
+<div class="loginbutton header-button">
+<a href="https://mein.elba.raiffeisen.at" target="_blank" rel="noopener noreferrer">
+<span class="icon-circle icon-lock2" aria-hidden="true"></span>
+<span class="btn-text">Mein ELBA Login</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a href="https://infinity.raiffeisen.at/" target="_blank" rel="noopener noreferrer" class="loginbutton-additional">
+<span class="icon-circle icon-web" aria-hidden="true"></span>
+<span class="btn-text">INFINITY Login</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</div>
+</div>
+<button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-label="Hauptnavigation">
+<span class="icon-hamburger" aria-hidden="true"></span>
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+<div class="collapse navbar-collapse">
+<div class="container">
+<div class="collapsable-inner">
+<div class="search searchNavigation header-search-navigation header-search">
+<div class="search-wrapper">
+<span class="icon-search header-search-icon" aria-hidden="true"></span>
+<form role="search" action="/de/suche.html">
+<label for="search--input-navigation" class="visually-hidden" tabindex="-1">Wonach suchen Sie?</label>
+<input class="header-search-input autosuggest-search-input search-nav" data-site-id="rdg" data-minlength-autosuggest="3" name="q" autocomplete="off" aria-haspopup="true" aria-owns="generatedQuickAccessID" id="search--input-navigation" placeholder="Wonach suchen Sie?" tabindex="-1" data-current-node="/de/config/header-config/jcr:content/search"/>
+</form>
+</div>
+<div class="component-search-autosuggest" role="region">
+<p class="no-autosuggest-results d-none" role="alert">Ihr Suchbegriff ergab keine Treffer. </p>
+<div class="label-wrapper">
+<button class="nav-back btn btn-default"><span class="icon-paging_arrow_left" aria-hidden="true"></span></button>
+<span class="label">Schnelleinstieg</span>
+</div>
+</div>
+<button id="search-input-toggle" type="button" class="header-search-button" aria-pressed="false">
+<span class="visually-hidden">Suche öffnen / schließen</span>
+</button>
+</div>
+<nav id="main-navigation" role="navigation" aria-label="Hauptnavigation">
+<ul class="nav navbar-nav">
+<li class="dropdown  nav-item active mega-dropdown">
+<button class="btn-clear dropdown-toggle" id="flyout-label-0" role="button" aria-controls="flyout-content-0" aria-expanded="false" aria-current="page" target="_self">
+<div class="nav-item-wrapper">
+<span>
+Privatkunden
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</button>
+<div role="region" id="flyout-content-0" aria-labelledby="flyout-label-0" class="nav-flyout    flyout-single-teaser">
+<div class="container">
+<div class="nav-items-wrapper ">
+<div class="component-navigation-items">
+<div class="nav-main-link  ">
+<a class="main-link" href="/de/privatkunden.html" target="_self">
+<span>Privatkunden</span>
+</a>
+</div>
+<ul class=" ">
+<li class="nav-item-level2 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden.html" target="_self">
+<span>Privatkunden</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/konto.html" target="_self">
+<span>Konto</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/konto.html">
+<span>Konto</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/konto/girokonto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Girokonto</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/konto/studentenkonto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Studentenkonto</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/konto/jugendkonto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Jugendkonto</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/konto/basiskonto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Basiskonto</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/konto/konto-wechseln.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kontowechsel</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/karte.html" target="_self">
+<span>Karte</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/karte.html">
+<span>Karte</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/karte/debitkarte.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Debitkarte</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/karte/kreditkarte.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kreditkarte</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/kredit-leasing.html" target="_self">
+<span>Kredit &amp; Leasing</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/kredit-leasing.html">
+<span>Kredit &amp; Leasing</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/konsumkredit.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Konsumkredit</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/sofort-kredit.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Sofort Kredit</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/wohnfinanzierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Wohnfinanzierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/bausparfinanzierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Bausparfinanzierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/auto-leasing.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Auto-Leasing</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/kredit-leasing/kreditrechner.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kreditrechner</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/sparen.html" target="_self">
+<span>Sparen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/sparen.html">
+<span>Sparen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/sparen/online-sparen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Online Sparen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/sparen/sparbuch.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Sparbuch</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/sparen/bausparen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Bausparen</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/anlegen.html" target="_self">
+<span>Anlegen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/anlegen.html">
+<span>Anlegen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/will-digitale-vermoegensverwaltung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>WILL - Die digitale Vermögensverwaltung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/online-depoteroeffnung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Online-Depoteröffnung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/aktien-anleihen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Aktien &amp; Anleihen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/fondssparen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Fondssparen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/fonds.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Fonds</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/geldanlage/fondspension.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>FondsPension</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/zertifikate.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Zertifikate</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/immobilien.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Immobilien</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/anlegen/gold-muenzen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Gold &amp; Münzen</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/vorsorgen-versichern.html" target="_self">
+<span>Vorsorgen &amp; Versichern</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/vorsorgen-versichern.html">
+<span>Vorsorgen &amp; Versichern</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/pensionsvorsorge.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Pensionsversicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/lebensversicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Lebensversicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/unfallversicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Unfallversicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/eigenheim-wohnungsversicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Eigenheim- &amp; Wohnungsversicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/kfz-versicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kfz-Versicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/vorsorgen-versichern/rechtsschutzversicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Rechtsschutzversicherung</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/privatkunden/rundum-service-fuer.html" target="_self">
+<span>Rundum-Service für</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/privatkunden/rundum-service-fuer.html">
+<span>Rundum-Service für</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/rundum-service-fuer/vermoegende-privatkunden.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Vermögende Privatkund:innen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/privatkunden/rundum-service-fuer/junge-kunden.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Junge Kund:innen</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<button class="close btn-clear" aria-label="Navigation schließen">
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+</li>
+<li class="dropdown  nav-item  mega-dropdown">
+<button class="btn-clear dropdown-toggle" id="flyout-label-1" role="button" aria-controls="flyout-content-1" aria-expanded="false" target="_self">
+<div class="nav-item-wrapper">
+<span>
+Firmenkunden
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</button>
+<div role="region" id="flyout-content-1" aria-labelledby="flyout-label-1" class="nav-flyout    flyout-single-teaser">
+<div class="container">
+<div class="nav-items-wrapper ">
+<div class="component-navigation-items">
+<div class="nav-main-link  ">
+<a class="main-link" href="/de/firmenkunden.html" target="_self">
+<span>Firmenkunden</span>
+</a>
+</div>
+<ul class=" ">
+<li class="nav-item-level2 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden.html" target="_self">
+<span>Firmenkunden</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/zahlungsverkehr.html" target="_self">
+<span>Zahlungsverkehr</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/zahlungsverkehr.html">
+<span>Zahlungsverkehr</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/geschaeftskonto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Geschäftskonto</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/karte.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Karte</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/electronic-banking.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Electronic Banking</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/express-ueberweisung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Überweisungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/bezahlloesungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Bezahllösungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/losungsabfuhr.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Losungsabfuhr</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/zahlungsverkehr/cash-management.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Cash Management</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/finanzieren.html" target="_self">
+<span>Finanzieren</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/finanzieren.html">
+<span>Finanzieren</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/betriebsmittel.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Betriebsmittel</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/investitionen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Investitionen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/projektfinanzierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Projektfinanzierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/factoring.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Factoring</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/foerderungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Förderungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/garantie-haftung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Garantie &amp; Haftung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/finanzieren/leasing.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Leasing</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/auslandsgeschaeft.html" target="_self">
+<span>Auslandsgeschäft</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/auslandsgeschaeft.html">
+<span>Auslandsgeschäft</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/exportabsicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Exportabsicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/exportfinanzierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Exportfinanzierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/auslands-investitionen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Auslandsinvestitionen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/internationaler-zahlungsverkehr.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Internationaler Zahlungsverkehr</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/waehrungsmanagement.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Währungsmanagement</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/auslandsgeschaeft/ansprechpartner-incee.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Ansprechpartner in CEE</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/vorsorge-veranlagen.html" target="_self">
+<span>Vorsorge &amp; Veranlagen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/vorsorge-veranlagen.html">
+<span>Vorsorge &amp; Veranlagen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/vorsorge-veranlagen/pensionsvorsorge.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Pensionsvorsorge</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/vorsorge-veranlagen/abfertigung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Abfertigung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/vorsorge-veranlagen/kreditbesicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kreditbesicherung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/vorsorge-veranlagen/veranlagen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Veranlagen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/vorsorge-veranlagen/zukunftssicherung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Zukunftssicherung</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/rundum-service-fuer.html" target="_self">
+<span>Rundum-Service für</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/rundum-service-fuer.html">
+<span>Rundum-Service für</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/unternehmensgruender.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Unternehmensgründung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/unternehmensnachfolge.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Unternehmensnachfolge</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/aerzte.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Ärzt:innen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/freie-berufe.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Freie Berufe</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/landwirte.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Landwirt:innen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/gemeinden.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Gemeinden</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/rundum-service-fuer/vereine.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Vereine</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/firmenkunden/infinity.html" target="_self">
+<span>Raiffeisen INFINITY</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/firmenkunden/infinity.html">
+<span>Raiffeisen INFINITY</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/infinity/funktionen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Funktionen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/infinity/videos-unterlagen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Videos und Anleitungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/infinity/registrierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Online Bestellung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/infinity/pushtan.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Login- und Freigabeverfahren</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/firmenkunden/infinity/hotline.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>INFINITY Hotline</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<button class="close btn-clear" aria-label="Navigation schließen">
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+</li>
+<li class="dropdown  nav-item  mega-dropdown">
+<button class="btn-clear dropdown-toggle" id="flyout-label-2" role="button" aria-controls="flyout-content-2" aria-expanded="false" target="_self">
+<div class="nav-item-wrapper">
+<span>
+Online Banking
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</button>
+<div role="region" id="flyout-content-2" aria-labelledby="flyout-label-2" class="nav-flyout hasTeaser  right flyout-single-teaser">
+<div class="container">
+<div class="nav-items-wrapper ">
+<div class="component-navigation-items">
+<div class="nav-main-link  ">
+<a class="main-link" href="/de/online-banking.html" target="_self">
+<span>Online Banking</span>
+</a>
+</div>
+<ul class=" ">
+<li class="nav-item-level2 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking.html" target="_self">
+<span>Online Banking</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/mein-elba.html" target="_self">
+<span>Mein ELBA</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking/mein-elba.html">
+<span>Mein ELBA</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mein-elba/funktionen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Funktionen &amp; Vorteile</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mein-elba/sicherheit/autorisierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Login und Freigabeverfahren</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/login/hotline.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>ELBA Hotline</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/apps.html" target="_self">
+<span>Apps</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking/apps.html">
+<span>Apps</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/apps/mein-elba-app.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Mein ELBA-App</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/apps/raipay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>RaiPay</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/apps/boerse360.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Börse360°-App</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/apps/fuhrpark-app.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Fuhrpark App</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/mobile-payment.html" target="_self">
+<span>Mobile Payment</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking/mobile-payment.html">
+<span>Mobile Payment</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/apps/raipay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>RaiPay</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/applepay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Apple Pay</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/click-to-pay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Click to Pay</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/swatch-pay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>SwatchPAY!</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/garmin-pay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Garmin Pay™</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/laks-pay.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>LAKS PAY</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/mobile-payment/blue-code.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Bluecode</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/sicherheit.html" target="_self">
+<span>Sicherheit</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking/sicherheit.html">
+<span>Sicherheit</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/sicherheit/aktuelle-warnungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Aktuelle Warnungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/sicherheit/online-banking.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Online Banking</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/sicherheit/kartensicherheit.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kartensicherheit</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/sicherheit/hilfe-im-notfall.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Hilfe im Notfall</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/sperre-veranlassen.html" target="_self">
+<span>Sperre veranlassen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/online-banking/sperre-veranlassen.html">
+<span>Sperre veranlassen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="https://www.raiffeisen.at/de/online-banking/sperre-veranlassen.html#sperrhotline" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Sperrhotline</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="https://www.raiffeisen.at/de/online-banking/sperre-veranlassen.html#onlinebanking" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Online Banking sperren</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="https://www.raiffeisen.at/de/online-banking/sperre-veranlassen.html#debitkarte" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Debitkarte sperren</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/online-banking/online-payment/guthaben-aufladen.html" target="_self">
+<span>Online aufladen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="teaser-wrapper teaser-wrapper--single-teaser">
+<div class="component-image-teaser">
+<div class="image-wrapper">
+<div>
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/lg/1777968694099/pushtan_newphone_stage25neutral.png 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/lg2/1777968694099/pushtan_newphone_stage25neutral.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/md/1777968694099/pushtan_newphone_stage25neutral.png 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/md2/1777968694099/pushtan_newphone_stage25neutral.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/sm/1777968694099/pushtan_newphone_stage25neutral.png 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/sm2/1777968694099/pushtan_newphone_stage25neutral.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/xs/1777968694099/pushtan_newphone_stage25neutral.png 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone2/flyout/image.imgTransformer/flyoutTeaser/xs2/1777968694099/pushtan_newphone_stage25neutral.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Neues Smartphone mit Mein ELBA-App Login Screen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<span class="title" data-aria-headline="true">Sie haben ein neues Handy?</span>
+<p>
+Jetzt pushTAN auf Ihrem neuen Gerät aktivieren und mit Mein ELBA - dem beliebtesten Online und Mobile Banking Österreichs - in Verbindung bleiben.
+</p>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-5cb4daf8-a136-4434-a043-9be7a72c1c2a" data-link-id="link-id-23b3154b-7b33-4c58-8d29-284c04237eb2">
+<div>
+<a href="/de/online-banking/apps/pushtan/neues-handy.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>pushTAN für neues Handy aktivieren</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="close btn-clear" aria-label="Navigation schließen">
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+</li>
+<li class="dropdown  nav-item  mega-dropdown">
+<button class="btn-clear dropdown-toggle" id="flyout-label-3" role="button" aria-controls="flyout-content-3" aria-expanded="false" target="_self">
+<div class="nav-item-wrapper">
+<span>
+Immobilien
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</button>
+<div role="region" id="flyout-content-3" aria-labelledby="flyout-label-3" class="nav-flyout hasTeaser  right flyout-single-teaser">
+<div class="container">
+<div class="nav-items-wrapper ">
+<div class="component-navigation-items">
+<div class="nav-main-link  ">
+<a class="main-link" href="/de/immobilien.html" target="_self">
+<span>Immobilien</span>
+</a>
+</div>
+<ul class=" ">
+<li class="nav-item-level2 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/immobilien.html" target="_self">
+<span>Immobilien</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/immobilien/kaufen-mieten.html" target="_self">
+<span>Kaufen &amp; Mieten</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/immobilien/kaufen-mieten.html">
+<span>Kaufen &amp; Mieten</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/kaufen-mieten/mieten-vermieten.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Mieten &amp; Vermieten</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/finanzierungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Finanzierungen</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/finanzierungen/foerderungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Förderungen</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/immobilien/bauen-sanieren.html" target="_self">
+<span>Bauen &amp; Sanieren</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/immobilien/bauen-sanieren.html">
+<span>Bauen &amp; Sanieren</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/bauen-sanieren/hausbau.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Hausbau</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/bauen-sanieren/renovieren-modernisieren.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Umbau &amp; Renovierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/bauen-sanieren/thermische-sanierung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Thermische Sanierung</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/bauen-sanieren/energie.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Energieberatung</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/immobilien/suchen---verkaufen.html" target="_self">
+<span>Suchen &amp; Verkaufen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/immobilien/suchen---verkaufen.html">
+<span>Suchen &amp; Verkaufen</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/immobiliensuche.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Immobiliensuche</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="https://www.raiffeisen-immobilien.at/de/bewertungscheck" rel="noopener noreferrer" target="_blank">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Immobilienbewertung</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/immobilien/kaufen-mieten/immobilien-verkaufen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Immobilien verkaufen</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="teaser-wrapper teaser-wrapper--single-teaser">
+<div class="component-image-teaser">
+<div class="image-wrapper">
+<div>
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/lg/1777968694099/Buehne-Vorsorgewohnung.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/lg2/1777968694099/Buehne-Vorsorgewohnung.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/md/1777968694099/Buehne-Vorsorgewohnung.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/md2/1777968694099/Buehne-Vorsorgewohnung.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/sm/1777968694099/Buehne-Vorsorgewohnung.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/sm2/1777968694099/Buehne-Vorsorgewohnung.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/xs/1777968694099/Buehne-Vorsorgewohnung.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone3/flyout/image.imgTransformer/flyoutTeaser/xs2/1777968694099/Buehne-Vorsorgewohnung.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Vorsorgewohnung" class="lazyload"/>
+</picture>
+</div>
+</figure>
+</div>
+</div>
+<span class="title" data-aria-headline="true">Vorsorgewohnung</span>
+<p>
+Eine Vorsorgewohnung ist ein Investment in die Zukunft und bietet Ihnen eine dauerhafte Einnahmequelle.
+</p>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-83ebb3fd-9c24-4bac-b640-8666599276eb" data-link-id="link-id-8311ab99-6376-4c55-ae3c-e899b2eb8ef5">
+<div>
+<a href="/de/immobilien/kaufen-mieten/vorsorgewohnungen.html" class="btn btn-primary" rel="noopener noreferrer" target="_blank">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Mehr zum Thema Vorsorgewohnung</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="close btn-clear" aria-label="Navigation schließen">
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+</li>
+<li class="dropdown  nav-item  mega-dropdown">
+<button class="btn-clear dropdown-toggle" id="flyout-label-4" role="button" aria-controls="flyout-content-4" aria-expanded="false" target="_self">
+<div class="nav-item-wrapper">
+<span>
+Meine Bank
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</button>
+<div role="region" id="flyout-content-4" aria-labelledby="flyout-label-4" class="nav-flyout hasTeaser  right flyout-single-teaser">
+<div class="container">
+<div class="nav-items-wrapper ">
+<div class="component-navigation-items">
+<div class="nav-main-link  ">
+<a class="main-link" href="/de/meine-bank.html" target="_self">
+<span>Meine Bank</span>
+</a>
+</div>
+<ul class=" ">
+<li class="nav-item-level2 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/meine-bank.html" target="_self">
+<span>Meine Bank</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/raiffeisen-bankengruppe.html" target="_self">
+<span>Raiffeisen Bankengruppe</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/meine-bank/raiffeisen-bankengruppe.html">
+<span>Raiffeisen Bankengruppe</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/raiffeisen-bankengruppe/raiffeisenbanken.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Raiffeisenbanken</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/raiffeisen-bankengruppe/unsere-philosophie.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Unsere Philosophie</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/raiffeisen-bankengruppe/nachhaltigkeits-initiative.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Nachhaltigkeits-Initiative</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/raiffeisen-bankengruppe/auszeichnungen.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Auszeichnungen</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/karriere.html" target="_self">
+<span>Karriere</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/meine-bank/karriere.html">
+<span>Karriere</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/karriere/jobangebote.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Jobangebote</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/karriere/raiffeisenbanken.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Raiffeisen als Arbeitgeber</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/karriere/ausbildung-weiterbildung.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Aus- &amp; Weiterbildung</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/vorteile.html" target="_self">
+<span>Vorteile</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/meine-bank/vorteile.html">
+<span>Vorteile</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/vorteile/raiffeisen-mobil.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Raiffeisen Mobil</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/vorteile/mitinhaber-mitgliedschaft.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Mitinhaber:innen &amp; Mitgliedschaft</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="https://tickets.raiffeisen.at/Tickets/Selection" rel="noopener noreferrer" target="_blank">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Tickets</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/vorteile/raiffeisen-club.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Raiffeisen Club</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/vorteile/sumsi-club.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Sumsi Club</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/kundenservice.html" target="_self">
+<span>Kund:innenservice</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+<ul>
+<li class="nav-item-level3 mobile-upper-level">
+<button class="mobile-level-back btn btn-default">
+<span class="icon-paging_arrow_left" aria-label="Zurück"></span>
+</button>
+<a href="/de/meine-bank/kundenservice.html">
+<span>Kund:innenservice</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/kundenservice/kontakt.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Kontakt</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/kundenservice/beratung-vorort.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Beratung vor Ort</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/online-banking/login/hotline.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>ELBA Hotline</span>
+</a>
+</li>
+<li class="nav-item-level3">
+<a href="/de/meine-bank/kundenservice/barrierefreiheit.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span>Barrierefreiheit</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/sponsoring.html" target="_self">
+<span>Sponsoring</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+<li class="nav-item-level2">
+<a href="/de/meine-bank/presse.html" target="_self">
+<span>Presse</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="teaser-wrapper teaser-wrapper--single-teaser">
+<div class="component-image-teaser">
+<div class="image-wrapper">
+<div>
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/lg/1777968694099/Fly-out.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/lg2/1777968694099/Fly-out.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/md/1777968694099/Fly-out.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/md2/1777968694099/Fly-out.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/sm/1777968694099/Fly-out.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/sm2/1777968694099/Fly-out.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/xs/1777968694099/Fly-out.jpg 1x, /de/config/header-config/jcr:content/root/responsivegrid/levelone4/flyout/image.imgTransformer/flyoutTeaser/xs2/1777968694099/Fly-out.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Raiffeisen Mobil" class="lazyload"/>
+</picture>
+</div>
+</figure>
+</div>
+</div>
+<span class="title" data-aria-headline="true">Raiffeisen Mobil</span>
+<p>
+Holen Sie sich jetzt den smarten Mobilfunktarif von Raiffeisen!
+</p>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-3f2cd5c8-448b-4086-b117-4baa1e5cb2d3" data-link-id="link-id-022b25e7-5737-4f87-944c-76a7333bf89a">
+<div>
+<a href="/de/meine-bank/vorteile/raiffeisen-mobil.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu Raiffeisen Mobil</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="close btn-clear" aria-label="Navigation schließen">
+<span class="icon-close" aria-hidden="true"></span>
+</button>
+</div>
+</div>
+</li>
+<li class="dropdown  nav-item ">
+<a href="/de/wirmachtsmoeglich.html" class="dropdown-toggle" target="_self">
+<div class="nav-item-wrapper">
+<span>
+WIR macht&#39;s möglich
+</span>
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+</div>
+</a>
+</li>
+</ul>
+<span class="nav-active-slider"></span>
+</nav>
+<div class="search searchNavigation header-search-navigation header-search">
+<div class="search-wrapper">
+<span class="icon-search header-search-icon" aria-hidden="true"></span>
+<form role="search" action="/de/suche.html">
+<label for="search--input-navigation" class="visually-hidden" tabindex="-1">Wonach suchen Sie?</label>
+<input class="header-search-input autosuggest-search-input search-nav" data-site-id="rdg" data-minlength-autosuggest="3" name="q" autocomplete="off" aria-haspopup="true" aria-owns="generatedQuickAccessID" id="search--input-navigation" placeholder="Wonach suchen Sie?" tabindex="-1" data-current-node="/de/config/header-config/jcr:content/search"/>
+</form>
+</div>
+<div class="component-search-autosuggest" role="region">
+<p class="no-autosuggest-results d-none" role="alert">Ihr Suchbegriff ergab keine Treffer. </p>
+<div class="label-wrapper">
+<button class="nav-back btn btn-default"><span class="icon-paging_arrow_left" aria-hidden="true"></span></button>
+<span class="label">Schnelleinstieg</span>
+</div>
+</div>
+<button id="search-input-toggle" type="button" class="header-search-button" aria-pressed="false">
+<span class="visually-hidden">Suche öffnen / schließen</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+</div>
+</div>
+<main id="main-content">
+<div class="aem__responsive-wrapper main-stage">
+<section class="component-stage-slider component-fullwidth component-spacer  multiple" data-pause="Automatische Slide Show Stoppen" data-play="Automatische Slide Show Starten" data-next="Nächste" data-previous="Vorherige" role="region" aria-roledescription="karussell" aria-label="Bühnen-Container">
+<div class="stage-slider-controls">
+<div class="controls-dots">
+<div class="play-controls">
+<div>
+<button type="button" class="pause-button">
+<span class="icon-pause" aria-hidden="true"></span>
+<span class="icon-play" aria-hidden="true"></span>
+<span class="visually-hidden"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slider content-inner" aria-live="off">
+<div class="stage-slide" data-slide-color="content-black">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/xl/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/xl2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/lg/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/lg2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/md/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/md2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/sm/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/sm2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/xs/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_copy_co/image.imgTransformer/stage/xs2/1778074094947/Header-3000x2000.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Börse360°-App: jetzt downloaden" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</div>
+<div class="stage-slide-content align-right align-items-center content-black ">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<span data-aria-headline="true">Börse360° – Die Kapitalmarkt-App von Raiffeisen.</span>
+</div>
+<p class="subline">
+<span>
+Das gesamte Finanzmarkt Know-how von Raiffeisen immer dabei. Veranlagungen in Wertpapiere können mit Risiken verbunden sein.</span>
+</p>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-822ad7f6-4577-4078-a108-45623017729e" data-link-id="link-id-70c66416-219f-47bf-aade-ea2921f02825">
+<div>
+<a href="https://www.raiffeisen.at/de/online-banking/apps/boerse360.html#download" class="btn btn-default" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Jetzt informieren und downloaden</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slide" data-slide-color="content-black">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/xl/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/xl2/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/lg/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/lg2/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/md/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/md2/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/sm/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/sm2/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/xs/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement/image.imgTransformer/stage/xs2/1778074094947/Jugend_2026_Image_quer-sujet-links.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Getränke und Euromünzen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</div>
+<div class="stage-slide-content align-right align-items-center content-black ">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<span data-aria-headline="true">Coffee to Fonds: Investment in deine Zukunft</span>
+</div>
+<p class="subline">
+<span>
+Mit Raiffeisen-Fonds kannst du bereits ab 50 Euro monatlich vorsorgen, dem Preis von drei Kaffees pro Woche. Wie das geht, erfährst du hier!</span>
+</p>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-66b4dddd-cdfa-444c-b014-4053a2e0ee72" data-link-id="link-id-3665cfe8-96cc-4566-8c57-b00e39d048af">
+<div>
+<a href="https://www.raiffeisenfonds.at/de/jugend" class="btn btn-default" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Mehr zum Fondssparen</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slide" data-slide-color="content-black">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/xl/1778074094947/RBSK_FP2026_2880x1092.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/xl2/1778074094947/RBSK_FP2026_2880x1092.jpg 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/lg/1778074094947/RBSK_FP2026_2880x1092.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/lg2/1778074094947/RBSK_FP2026_2880x1092.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/md/1778074094947/RBSK_FP2026_2880x1092.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/md2/1778074094947/RBSK_FP2026_2880x1092.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/sm/1778074094947/RBSK_FP2026_2880x1092.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_675137052/image.imgTransformer/stage/sm2/1778074094947/RBSK_FP2026_2880x1092.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_675137052/imageMobile.imgTransformer/stage/xs/1778074094947/RBSK_FP2026_1480x1092.jpg 1x, /de/privatkunden/jcr:content/stage/stageelement_675137052/imageMobile.imgTransformer/stage/xs2/1778074094947/RBSK_FP2026_1480x1092.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nintendo Switch 2 gewinnen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</div>
+<div class="stage-slide-content align-right align-items-center content-black ">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<span data-aria-headline="true">Jetzt mit Raiffeisen Bausparen eine Nintendo Switch 2 gewinnen!</span>
+</div>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-e1b6710c-761b-4dc2-b79e-bbafc32a3d84" data-link-id="link-id-f83c0117-ed57-4449-8ce8-44337620b457">
+<div>
+<a href="https://www.bausparen.at/de/spielen.html" class="btn btn-primary" rel="noopener noreferrer" target="_blank">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Jetzt mitspielen</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slide" data-slide-color="content-black">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/xl/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 1x, /de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/xl2/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/lg/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 1x, /de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/lg2/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/md/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 1x, /de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/md2/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/sm/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 1x, /de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/sm2/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/xs/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 1x, /de/privatkunden/jcr:content/stage/stageelement_msm_moved/image.imgTransformer/stage/xs2/1778074094947/Stage_Online_Produkte_Raiffeisenbank.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Smartphones mit Online Produkten von Raiffeisen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</div>
+<div class="stage-slide-content align-right align-items-center content-black ">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<span data-aria-headline="true">Online Produkte von Raiffeisen</span>
+</div>
+<p class="subline">
+<span>
+Aus der Region, für die Region – online abschließbar und jederzeit verfügbar: Hier finden Sie eine Übersicht über alle Produkte, die Sie bei Ihrer Raiffeisenbank einfach und bequem online abschließen können.</span>
+</p>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-d0e2f680-22be-4fd8-879e-8a46c23bb54f" data-link-id="link-id-575dab02-d849-4737-a5de-8558ce4f0242">
+<div>
+<rwm-cta-redirect-to-branch btn-style="btn-primary" params="{&#34;filter&#34;:[&#34;hauptstelle:true&#34;],&#34;ctaPrimary&#34;:{&#34;action&#34;:&#34;redirect&#34;,&#34;params&#34;:{&#34;linkTarget&#34;:&#34;_self&#34;,&#34;linkText&#34;:&#34;zu den Online Produkten&#34;}},&#34;forwardButton&#34;:{&#34;linkTextWithBlzCookie&#34;:&#34;Zu Ihrer Raiffeisenbank&#34;,&#34;buttonStyle&#34;:&#34;btn-primary&#34;,&#34;linkText&#34;:&#34;Wählen Sie Ihre Raiffeisenbank&#34;},&#34;productCompletion&#34;:true,&#34;ctaSecondary&#34;:null,&#34;suffix&#34;:&#34;/privatkunden/online-produkte&#34;,&#34;hideRoutePlaner&#34;:false,&#34;headline&#34;:&#34;In welcher Bank wollen Sie Ihr Produkt abschließen?&#34;,&#34;hideMap&#34;:false}"></rwm-cta-redirect-to-branch>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section class="component-breadcrumb component-fullwidth component-spacer">
+<div class="container">
+</div>
+</section>
+<div class="container">
+<div class="aem__responsive-wrapper">
+<section class="component-page-title component-spacer">
+<div class="container-content">
+<div class="content-wrapper">
+<h1>Raiffeisen – Unser Angebot für Privatkund:innen</h1>
+<p>Mit 26.800 Mitarbeiter:innen in über 1.500 Bankstellen ist Raiffeisen die größte Bankengruppe des Landes. Profitieren auch Sie von den umfassenden Leistungen Ihrer Raiffeisenbank vor Ort und den innovativen Angeboten im digitalen Bereich.</p>
+</div>
+</div>
+</section>
+</div>
+<div class="root responsivegrid">
+<div class="aem-Grid aem-Grid--1 aem-Grid--default--1 ">
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--1">
+<div class="aem-Grid aem-Grid--1 aem-Grid--default--1 ">
+<div class="recommendation aem-GridColumn aem-GridColumn--default--1"><section class="component-recommendation-carousel content-section component-spacer ">
+<div class="content-wrapper">
+<h2>Wie können wir Sie unterstützen?</h2>
+<p>Finanzlösungen, die zu Ihren Plänen passen. WIR macht´s möglich.</p>
+</div>
+<div class="carousel-wrapper" role="region" aria-roledescription="karussell" aria-label="Wie können wir Sie unterstützen?">
+<div class="carousel-controls">
+<div class="controls-dots"></div>
+</div>
+<div class="carousel " aria-live="polite" data-next="Nächste" data-previous="Vorherige">
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/lg/1778074094947/icon_konto_eroeffnen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/lg2/1778074094947/icon_konto_eroeffnen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/md/1778074094947/icon_konto_eroeffnen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/md2/1778074094947/icon_konto_eroeffnen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/sm/1778074094947/icon_konto_eroeffnen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/sm2/1778074094947/icon_konto_eroeffnen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/xs/1778074094947/icon_konto_eroeffnen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/xs2/1778074094947/icon_konto_eroeffnen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Icon Konto eröffnen bei Raiffeisen" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Konto eröffnen</h3>
+<div class="rte"><ul>
+<li>Girokonto</li>
+<li>Gratis Jugendkonto</li>
+<li>Gratis Studentenkonto</li>
+<li>Basiskonto</li>
+</ul>
+<p>Jetzt Konto eröffnen bei Raiffeisen - online oder regional in Ihrer Nähe.</p>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-159606eb-dbfd-41bf-b9d3-0a752f3b7908" data-link-id="link-id-2f3f7b79-0822-4561-9a80-b845bec97e32">
+<div>
+<a href="/de/privatkunden/konto.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Kontomodellen</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/lg/1778074094947/icon_kredit_aufnehmen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/lg2/1778074094947/icon_kredit_aufnehmen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/md/1778074094947/icon_kredit_aufnehmen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/md2/1778074094947/icon_kredit_aufnehmen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/sm/1778074094947/icon_kredit_aufnehmen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/sm2/1778074094947/icon_kredit_aufnehmen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/xs/1778074094947/icon_kredit_aufnehmen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem/image.imgTransformer/recommendation/xs2/1778074094947/icon_kredit_aufnehmen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Icon Kredit aufnehmen bei Raiffeisen" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Wunsch finanzieren</h3>
+<div class="rte"><ul>
+<li>Konsumkredit</li>
+<li>Sofort Kredit</li>
+<li>Wohnfinanzierung</li>
+<li>Auto-Leasing</li>
+</ul>
+<p>Alles zu Krediten und Leasingfinanzierungen auf einen Blick.</p>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-75dcdebd-315b-4512-b7c9-59a022121eef" data-link-id="link-id-72ce031d-59ed-4f61-94e3-9bc31b37d1c9">
+<div>
+<a href="/de/privatkunden/kredit-leasing.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Finanzierungen</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/lg/1778074094947/icon_geld_anlegen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/lg2/1778074094947/icon_geld_anlegen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/md/1778074094947/icon_geld_anlegen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/md2/1778074094947/icon_geld_anlegen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/sm/1778074094947/icon_geld_anlegen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/sm2/1778074094947/icon_geld_anlegen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/xs/1778074094947/icon_geld_anlegen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/xs2/1778074094947/icon_geld_anlegen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Geld anlegen mit Raiffeisen" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Geld anlegen</h3>
+<div class="rte"><ul>
+<li>Aktien &amp; Anleihen</li>
+<li>Fonds &amp; Fondssparen</li>
+<li>Immobilien</li>
+<li>Gold &amp; Münzen</li>
+</ul>
+<p>Nutzen Sie das Know-How unserer Expert:innen.</p>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-1e26bfed-39ec-4edd-b54a-570e832b235e" data-link-id="link-id-2164507a-4a43-45e4-8729-70d2231ec84f">
+<div>
+<a href="/de/privatkunden/anlegen.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Anlageprodukten</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/lg/1778074094947/icon_geld_sparen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/lg2/1778074094947/icon_geld_sparen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/md/1778074094947/icon_geld_sparen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/md2/1778074094947/icon_geld_sparen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/sm/1778074094947/icon_geld_sparen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/sm2/1778074094947/icon_geld_sparen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/xs/1778074094947/icon_geld_sparen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_2_cop/recommendationGrid/recommendationitem_c_989469299/image.imgTransformer/recommendation/xs2/1778074094947/icon_geld_sparen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Icon Geld sparen mit Raiffeisen" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Reserve aufbauen</h3>
+<div class="rte"><ul>
+<li>Online Sparen</li>
+<li>Sparbuch</li>
+<li>Bausparen</li>
+</ul>
+<p>Klassisches Sparen für mehr finanziellen Spielraum. Wir haben das passende Sparprodukt für Ihre Ziele.</p>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-c738b929-8f19-4ba8-8742-b7005322a382" data-link-id="link-id-374c0fa7-b69f-4074-b201-03d4014db37e">
+<div>
+<a href="/de/privatkunden/sparen.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Sparprodukten</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="content-row aem-GridColumn aem-GridColumn--default--1"><section class="content-section component-content-box component-spacer  
+         primary-border-color cta-visible
+         ">
+<h2 data-aria-headline="true">Die Raiffeisen Börse360°-App ist da!</h2>
+<div class="container-content">
+<div class="content-wrapper">
+<div class="content-box-row">
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 ">
+<div class="contentBoxTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+<div class="component-content-box-teaser has-icon">
+<h3 data-aria-headline="true">
+<span class="icon icon-smartphone" aria-hidden="true"></span>Börse360° - Die neue Kapitalmarkt-App
+</h3>
+<div class="rte">
+<p><b>Mit der Raiffeisen Börse360°-App ist der Kapitalmarkt dort, wo Sie sind – direkt am Smartphone.</b></p>
+<p> </p>
+<ul>
+<li>Schneller Überblick über Märkte, Watchlists, Musterdepots und aktuelle Insights</li>
+<li>Produkte mit regionalem Fokus</li>
+<li>Watchlists und Musterdepots im Blick behalten</li>
+<li>Aktuelle Daten zu Aktien, Fonds, Anleihen, Rohstoffen</li>
+<li>Analysen von Raiffeisen Research</li>
+<li>Kurssignale und Push-Infos</li>
+</ul>
+<p>Hinweis: Veranlagungen in Wertpapiere können mit Risiken verbunden sein.</p>
+<p> </p>
+<p><sup>Bitte beziehen Sie unsere App für Android ausschließlich aus dem Google Play Store und für iOS ausschließlich aus dem Apple App Store. Apps aus allen anderen Quellen werden von Raiffeisen nicht unterstützt und können Schadsoftware enthalten.</sup></p>
+</div>
+</div>
+</div>
+<div class="appTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+<div class="component-app-teaser ">
+<div>
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/lg/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/lg2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/md/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/md2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/sm/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/sm2/1778074094947/Header-3000x2000.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/xs/1778074094947/Header-3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/appteaser/image.imgTransformer/appTeaser/xs2/1778074094947/Header-3000x2000.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Börse360°-App: jetzt downloaden" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+<div class="btn-container">
+<a class="google-play-store" href="https://play.google.com/store/apps/details?id=at.raiffeisen.kapitalmarkt" target="_blank" rel="noopener noreferrer" title="Google Play Store">
+<img src="/apps/settings/wcm/designs/cms/clientlib-theme-main/images/google_play_de.svg" alt="Google Play Store"/>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a class="app-store" href="https://apps.apple.com/us/app/raiffeisen-b%C3%B6rse360/id6746483984" target="_blank" rel="noopener noreferrer" title="iTunes App Store">
+<img src="/apps/settings/wcm/designs/cms/clientlib-theme-main/images/app_store_de.svg" alt="iTunes App Store"/>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="image aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/lg/1778074094947/qr-boerse360-downloaden.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/lg2/1778074094947/qr-boerse360-downloaden.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/md/1778074094947/qr-boerse360-downloaden.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/md2/1778074094947/qr-boerse360-downloaden.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/sm/1778074094947/qr-boerse360-downloaden.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/sm2/1778074094947/qr-boerse360-downloaden.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/xs/1778074094947/qr-boerse360-downloaden.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop_2104138263/contentbox/image/image.imgTransformer/defaultImage/xs2/1778074094947/qr-boerse360-downloaden.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="QR-Code Börse360°-App downloaden" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cta-wrapper-content-box">
+<div class="cta-container  " data-heading-id="heading-id-009b79ae-0d60-4224-9221-91506cd5f8aa" data-link-id="link-id-806feb67-5f07-49db-976b-ff1cdd8ed87a">
+<div>
+<a href="/de/online-banking/apps/boerse360.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Jetzt Börse360°-App entdecken!</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="headline aem-GridColumn aem-GridColumn--default--1"><div class="cms-headline">
+<div>
+<h2 class="text-center">Kreditkarten von Raiffeisen</h2>
+</div>
+</div>
+</div>
+<div class="content-row aem-GridColumn aem-GridColumn--default--1"><section class="component-pictureText content-section component-spacer  ">
+<div class="content-wrapper">
+<div class="picture-right col-img-half picture-text-image-wrapper">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/lg/1778074094947/kreditkarte_classic_packshot.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/lg2/1778074094947/kreditkarte_classic_packshot.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/md/1778074094947/kreditkarte_classic_packshot.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/md2/1778074094947/kreditkarte_classic_packshot.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/sm/1778074094947/kreditkarte_classic_packshot.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/sm2/1778074094947/kreditkarte_classic_packshot.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/xs/1778074094947/kreditkarte_classic_packshot.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop_msm_moved/image.imgTransformer/pictureTextImageL/xs2/1778074094947/kreditkarte_classic_packshot.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Raiffeisen Kreditkarte Gold" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+<h3 data-aria-headline="true">Die Raiffeisen Kreditkarte ist Ihr idealer Begleiter</h3>
+<div class="text-wrapper rte">
+<div><div>Ob in Ihrer Lieblingsboutique, im Online-Shop oder auf Reisen. Raiffeisen Kreditkarten bieten etliche Vorteile:</div>
+<div> </div>
+<ul>
+<li>Weltweit akzeptiert</li>
+<li>Sicher online sowie kontaktlos zahlen</li>
+<li>Kartenlimit individuell anpassbar</li>
+<li>Versicherungsschutz</li>
+<li>Wunschdesign</li>
+</ul>
+</div>
+</div>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-40fa0e84-68ea-43ee-8833-6df7e4644ef5" data-link-id="link-id-a9b87139-be7b-46d8-9683-684c2e2d44e5">
+<div>
+<a href="/de/privatkunden/karte/kreditkarte.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Kreditkarten</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="ghost aem-GridColumn aem-GridColumn--default--1">
+</div>
+<div class="ghost aem-GridColumn aem-GridColumn--default--1">
+</div>
+<div class="stageContainer grid-fullwidth aem-GridColumn aem-GridColumn--default--1">
+<section class="component-stage-slider component-fullwidth component-spacer  " data-pause="Automatische Slide Show Stoppen" data-play="Automatische Slide Show Starten" data-next="Nächste" data-previous="Vorherige" role="region" aria-label="Bühnen-Container">
+<div class="stage-slider-controls">
+<div class="controls-dots">
+<div class="play-controls">
+<div>
+<button type="button" class="pause-button">
+<span class="icon-pause" aria-hidden="true"></span>
+<span class="icon-play" aria-hidden="true"></span>
+<span class="visually-hidden"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slider content-inner" aria-live="off">
+<div class="stage-slide" data-slide-color="content-black">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/xl/1778074094947/Stage_Digital_Banking_Raiffeisen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/xl2/1778074094947/Stage_Digital_Banking_Raiffeisen.png 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/lg/1778074094947/Stage_Digital_Banking_Raiffeisen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/lg2/1778074094947/Stage_Digital_Banking_Raiffeisen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/md/1778074094947/Stage_Digital_Banking_Raiffeisen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/md2/1778074094947/Stage_Digital_Banking_Raiffeisen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/sm/1778074094947/Stage_Digital_Banking_Raiffeisen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/sm2/1778074094947/Stage_Digital_Banking_Raiffeisen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/xs/1778074094947/Stage_Digital_Banking_Raiffeisen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_93413/stageelement_1718046/image.imgTransformer/stage/xs2/1778074094947/Stage_Digital_Banking_Raiffeisen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Devices mit dem Online und Mobile Banking von Raiffeisen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</div>
+<div class="stage-slide-content align-right align-items-center content-black ">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<h2 data-aria-headline="true">Das beliebteste Online und Mobile Banking Österreichs.</h2>
+</div>
+<p class="subline">
+<span>
+Mit Mein ELBA, der Mein ELBA-App und den verschiedenen Mobile Payment Lösungen von Raiffeisen haben Sie Ihre Finanzen immer im Griff.</span>
+</p>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-03f94084-d517-4df8-8a2e-0d8212fe4700" data-link-id="link-id-a7a8db3a-f802-4321-b60b-cfb468d7edeb">
+<div>
+<a href="/de/online-banking.html" class="btn btn-default" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zu den Digital Banking Lösungen</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="content-row aem-GridColumn aem-GridColumn--default--1"><section class="component-pictureText content-section component-spacer  ">
+<div class="content-wrapper">
+<div class="picture-right col-img-half picture-text-image-wrapper">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/lg/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/lg2/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/md/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/md2/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/sm/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/sm2/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/xs/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/picturetext_copy_cop/image.imgTransformer/pictureTextImageL/xs2/1778074094947/Icon_Service_und_Hilfe_in_Notfaellen.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Icon Hilfe und Kontakt im Notfall bei Raiffeisen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+<h2 data-aria-headline="true">Hilfe und Kontakt im Notfall</h2>
+<div class="text-wrapper rte">
+<div><div>Ihre Sicherheit hat höchste Priorität. Hier finden Sie wichtige Informationen zu folgenden Themen:</div>
+<div> </div>
+<ul>
+<li>Debitkarte und Mein ELBA Zugang selbst sperren</li>
+<li>Sperre veranlassen bei der Sperrhotline</li>
+<li>Betrug und Datendiebstahl melden</li>
+<li>Berater:in kontaktieren für Anfragen</li>
+</ul>
+</div>
+</div>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-81e1108f-5e54-4815-b475-e27ae47d4f91" data-link-id="link-id-71606758-8855-4bd8-ac3f-2739f32f0a3f">
+<div>
+<a href="/de/online-banking/sicherheit/hilfe-im-notfall.html" class="btn btn-default" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>So erreichen Sie uns im Notfall</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="content-row aem-GridColumn aem-GridColumn--default--1"><section class="content-section component-content-box component-spacer  
+         primary-border-color 
+         ">
+<h2 data-aria-headline="true">So schützen Sie Ihre persönlichen Daten</h2>
+<div class="container-content">
+<div class="content-wrapper">
+<div class="content-box-row">
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 ">
+<div class="image aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/lg/1778074094947/logo-phishen-impossible.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/lg2/1778074094947/logo-phishen-impossible.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/md/1778074094947/logo-phishen-impossible.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/md2/1778074094947/logo-phishen-impossible.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/sm/1778074094947/logo-phishen-impossible.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/sm2/1778074094947/logo-phishen-impossible.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/xs/1778074094947/logo-phishen-impossible.png 1x, /de/privatkunden/jcr:content/root/responsivegrid/contentcontainer_cop/contentbox/image/image.imgTransformer/image/LW/xs2/1778074094947/logo-phishen-impossible.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Logo Phishen Impossible" class="lazyload"/>
+</picture>
+</div>
+</figure>
+</div>
+<div class="contentBoxTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+<div class="component-content-box-teaser has-icon">
+<h3 data-aria-headline="true">
+<span class="icon icon-info" aria-hidden="true"></span>Machen wir PHISHEN IMPOSSIBLE!
+</h3>
+<div class="rte">
+<p>Internetfallen werden immer raffinierter, die einzelnen Schadenssummen immer höher. Vor allem durch Phishing, dem gezielten Ausfragen von persönlichen (Zugangs-)Daten, und anschließendem Social Engineering, dem Austricksen der Opfer durch falsche Behauptungen, kommen häufig Schadenssummen im fünf- bis sechsstelligen Bereich zustande.</p>
+<p> </p>
+<p>Auf der Plattform &quot;PHISHEN IMPOSSIBLE&quot; finden Sie wertvolle Informationen, wie Sie ihre persönlichen Daten schützen können.</p>
+<p> </p>
+<p><i>Eine Initiative der PSA Payment Services Austria GmbH und den Österreichischen Banken, dem Bundeskriminalamt, A1, der Österreichischen Post und der Watchlist Internet.</i></p>
+</div>
+<div class="cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-f623ade5-ce58-438b-a556-9db05e86b00e" data-link-id="link-id-618d69d8-64ac-4580-8590-27f7fd007a9d">
+<div>
+<a href="https://www.phishen-impossible.at" class="btn btn-primary" rel="noopener noreferrer" target="_blank">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>www.phishen-impossible.at</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="teletrader aem-GridColumn aem-GridColumn--default--1">
+<section class="component-teletrader component-spacer">
+<h2>Aktien &amp; Wertpapiere</h2>
+<tt-search-component site-id="rdg">
+</tt-search-component>
+<tt-startpage-component site-id="rdg" indices="atx,dax,dow,nas">
+</tt-startpage-component>
+</section>
+</div>
+<div class="recommendation aem-GridColumn aem-GridColumn--default--1"><section class="component-recommendation-carousel content-section component-spacer ">
+<div class="content-wrapper">
+<h2>Entdecken Sie weitere Angebote von Raiffeisen, die zu Ihnen passen</h2>
+</div>
+<div class="carousel-wrapper" role="region" aria-roledescription="karussell" aria-label="Entdecken Sie weitere Angebote von Raiffeisen, die zu Ihnen passen">
+<div class="carousel-controls">
+<div class="controls-dots"></div>
+</div>
+<div class="carousel fullwidth-1400" aria-live="polite" data-next="Nächste" data-previous="Vorherige">
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/lg/1778074094947/1957299431.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/lg2/1778074094947/1957299431.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/md/1778074094947/1957299431.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/md2/1778074094947/1957299431.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/sm/1778074094947/1957299431.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/sm2/1778074094947/1957299431.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/xs/1778074094947/1957299431.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_c/image.imgTransformer/recommendation/xs2/1778074094947/1957299431.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Frau bezahlt mit RaiPay" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">RaiPay</h3>
+<div class="rte"><p><b>Willkommen im modernen Zeitalter.</b></p>
+<ul>
+<li>Raiffeisen Debit- und Kreditkarte digitalisieren</li>
+<li>Mit jedem Android-Smartphone sicher und kontaktlos bezahlen</li>
+<li>&quot;Geld senden&quot;-Funktion für österreichische Empfängerkarten </li>
+<li>Klare Übersicht über Ihre digitalen Karten, Verbindungen zu Online-Händler:innen und Abo-Diensten</li>
+</ul>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-c702bceb-6483-4a2a-a360-107febf428b1" data-link-id="link-id-d4e950fb-4bf2-4b2b-a706-303f8c56570a">
+<div>
+<a href="/de/online-banking/apps/raipay.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Mehr zu RaiPay</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/lg/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/lg2/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/md/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/md2/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/sm/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/sm2/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/xs/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_2/image.imgTransformer/recommendation/xs2/1778074094947/R-Mobil_Buehne_PK_3000x2000.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Raiffeisen Mobil - 2 fröhliche junge Leute" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Raiffeisen Mobil</h3>
+<div class="rte"><p><b>Der smarte Mobilfunktarif.</b></p>
+<ul>
+<li>Smartphone Tarife S, M und L für jeden Bedarf</li>
+<li>Tarif mobil M mit 50 GB Datenvolumen um nur EUR 9,90</li>
+<li>Tarif mobil WEB: österreichweit unlimitiertes Internet<br/>
+</li>
+<li>Keine Aktivierungsgebühren, Servicepauschalen und Bearbeitungsentgelte</li>
+</ul>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-61808f5c-1e5a-4a27-b6f5-4f3bd54d3110" data-link-id="link-id-1e2731e3-ef72-4e65-ade8-6b5a846c0139">
+<div>
+<a href="https://www.raiffeisen-mobil.at/tarife.html" class="btn btn-primary" rel="noopener noreferrer" target="_blank">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Tarife entdecken</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/lg/1778074094947/526220223.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/lg2/1778074094947/526220223.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/md/1778074094947/526220223.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/md2/1778074094947/526220223.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/sm/1778074094947/526220223.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/sm2/1778074094947/526220223.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/xs/1778074094947/526220223.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/recommendation_copy/recommendationGrid/recommendationitem_3/image.imgTransformer/recommendation/xs2/1778074094947/526220223.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Junge Leute mit Smartphone und Kaffee" class="lazyload"/>
+</picture>
+</div>
+</figure>
+<div class="item-content">
+<div class="item-text-wrapper">
+<h3 data-aria-headline="true">Raiffeisen Kreditrechner</h3>
+<div class="rte"><p><b>Jetzt Kreditrate berechnen.</b></p>
+<p>Der Raiffeisen Kreditrechner dient als Orientierungshilfe für Ihr Finanzierungsvorhaben.</p>
+<ul>
+<li>Sofort Kredit</li>
+<li>Konsumkredit</li>
+<li>Wohnkredit</li>
+</ul>
+<p>Ob eine Finanzierung leistbar ist, zeigt Ihnen unser Kreditrechner.</p>
+</div>
+</div>
+<div class="item-cta-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-5aa489d1-08c3-45e2-b343-88194c85ab48" data-link-id="link-id-15a02d6b-f4a7-4d43-af38-3dc7e0cfd7c6">
+<div>
+<a href="/de/privatkunden/kredit-leasing/kreditrechner.html" class="btn btn-primary" target="_self">
+<span class="quickbar-icon " aria-hidden="true"></span>
+<span class="btn-text">
+<span>Zum Kreditrechner</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="stageContainer grid-fullwidth aem-GridColumn aem-GridColumn--default--1">
+<section class="component-stage-slider component-fullwidth component-spacer  " data-pause="Automatische Slide Show Stoppen" data-play="Automatische Slide Show Starten" data-next="Nächste" data-previous="Vorherige" role="region" aria-label="Bühnen-Container">
+<div class="stage-slider-controls">
+<div class="controls-dots">
+<div class="play-controls">
+<div>
+<button type="button" class="pause-button">
+<span class="icon-pause" aria-hidden="true"></span>
+<span class="icon-play" aria-hidden="true"></span>
+<span class="visually-hidden"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="stage-slider content-inner" aria-live="off">
+<div class="stage-slide" data-slide-color="content-white">
+<div>
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1440px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/xl/1778074094947/beratung_raiffeisen.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/xl2/1778074094947/beratung_raiffeisen.jpg 2x"/>
+<source media="(min-width: 1220px)and (max-width: 1439px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/lg/1778074094947/beratung_raiffeisen.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/lg2/1778074094947/beratung_raiffeisen.jpg 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/md/1778074094947/beratung_raiffeisen.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/md2/1778074094947/beratung_raiffeisen.jpg 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/sm/1778074094947/beratung_raiffeisen.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/sm2/1778074094947/beratung_raiffeisen.jpg 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/xs/1778074094947/beratung_raiffeisen.jpg 1x, /de/privatkunden/jcr:content/root/responsivegrid/stagecontainer_17728/stageelement_copy/image.imgTransformer/stage/xs2/1778074094947/beratung_raiffeisen.jpg 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Raiffeisen Kundenberaterin unterhält sich mit einem Kunden" class="lazyload"/>
+</picture>
+</div>
+</div>
+<div class="stage-slide-content align-left align-items-center content-white background-shadow">
+<div class="container">
+<div class="text-wrapper">
+<div class="text">
+<div class="headline">
+<h2 data-aria-headline="true">Ihre individuelle Beratung. Unkompliziert und nah.</h2>
+</div>
+<p class="subline">
+<span>
+Sie haben Fragen zu unseren Produkten und Angeboten oder benötigen Unterstützung bei Ihren finanziellen Entscheidungen? Vereinbaren Sie gleich online einen Beratungstermin bei Ihrer Raiffeisenbank.</span>
+</p>
+<div class="btn-wrapper">
+<div class="cta-container  " data-heading-id="heading-id-f1ec0816-2308-4fbf-bb4b-65753ed46f77" data-link-id="link-id-b3cfddf5-bf44-4484-b5ee-c8944343df74">
+<div>
+<rwm-cta-redirect-to-branch btn-style="btn-primary" params="{&#34;filter&#34;:[],&#34;ctaPrimary&#34;:{&#34;action&#34;:&#34;redirect&#34;,&#34;params&#34;:{&#34;linkTarget&#34;:&#34;_self&#34;,&#34;linkText&#34;:&#34;Zur Terminvereinbarung&#34;}},&#34;forwardButton&#34;:{&#34;linkTextWithBlzCookie&#34;:&#34;Jetzt Beratungstermin vereinbaren!&#34;,&#34;buttonStyle&#34;:&#34;btn-primary&#34;,&#34;linkText&#34;:&#34;Jetzt Beratungstermin vereinbaren!&#34;},&#34;ctaSecondary&#34;:null,&#34;suffix&#34;:&#34;/meine-bank/kundenservice/beratung-vorort&#34;,&#34;hideRoutePlaner&#34;:false,&#34;headline&#34;:&#34;Wo wollen Sie Ihren Termin vereinbaren?&#34;,&#34;hideMap&#34;:false}"></rwm-cta-redirect-to-branch>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="ghost aem-GridColumn aem-GridColumn--default--1">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="footerPage basePage page basicpage"><footer>
+<div class="footer-main">
+<div class="container">
+<div class="aem-Grid aem-Grid--1 aem-Grid--default--1 ">
+<div class="responsivegrid aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 ">
+<div class="banksearchTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<div class="component-banksearch-teaser">
+<h2 class="title">Ihre Raiffeisen Bankstellen</h2>
+<div class="search">
+<rwm-location-search footer-bank-search="true" params="{&#34;filter&#34;:[],&#34;ctaSecondary&#34;:{&#34;params&#34;:{&#34;linkUrl&#34;:&#34;WEBSITE_URL&#34;,&#34;linkText&#34;:&#34;Detailseite aufrufen&#34;,&#34;linkTarget&#34;:&#34;_self&#34;},&#34;action&#34;:&#34;link&#34;},&#34;dislodgedDevices&#34;:true,&#34;headline&#34;:&#34;Ihre Raiffeisen Bankstellen&#34;,&#34;hideRoutePlaner&#34;:false,&#34;hideMap&#34;:false}"></rwm-location-search>
+</div>
+</div>
+</div>
+<div class="socialmediaTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2"><div class="component-social-media">
+<h2 class="title">Raiffeisen @ Social Media</h2>
+<div>
+<a target="_blank" rel="noopener noreferrer" href="//www.facebook.com/raiffeisen" class="social-media-buttons" role="link">
+<span class="icon-btn_facebook" aria-hidden="true"></span>
+<span class="visually-hidden">Raiffeisen auf Facebook</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a target="_blank" rel="noopener noreferrer" href="//www.instagram.com/raiffeisen/" class="social-media-buttons" role="link">
+<span class="icon-btn_instagram" aria-hidden="true"></span>
+<span class="visually-hidden">Raiffeisen auf Instagram</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@raiffeisen" class="social-media-buttons" role="link">
+<span class="icon-btn_tiktok" aria-hidden="true"></span>
+<span class="visually-hidden">TikTok</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a target="_blank" rel="noopener noreferrer" href="//www.youtube.com/user/raiffeisen" class="social-media-buttons" role="link">
+<span class="icon-btn_youtube" aria-hidden="true"></span>
+<span class="visually-hidden">Raiffeisen Videokanal auf Youtube</span>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--1">
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 aem-Grid--medium--6 ">
+<div class="kontaktTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+<div class="component-kontakt-teaser">
+<h2 class="title">Kontakt &amp; Hotlines</h2>
+<ul class="hide-list-items">
+<li>
+<span class="icon-message" data-aria="hidden"></span>
+<a class="arrow-link" href="mailto:info@raiffeisen.at" aria-label="E-Mail: info@raiffeisen.at">
+<span class="icon-paging_arrow_right" data-aria="hidden"></span>
+<span class="text-link">info@raiffeisen.at</span>
+</a>
+</li>
+<li>
+<span class="icon-assigment" aria-hidden="true"></span>
+<a class="arrow-link" href="/de/meine-bank/kundenservice/kontakt.html" target="_self">
+<span class="icon-paging_arrow_right" data-aria="hidden"></span>
+<span class="text-link">
+<span>Kontaktformular</span>
+</span>
+</a>
+</li>
+<li>
+<span class="icon-service_center" aria-hidden="true"></span>
+<a class="arrow-link" href="/de/online-banking/login/hotline.html" target="_self">
+<span class="icon-paging_arrow_right" data-aria="hidden"></span>
+<span class="text-link">
+<span>Mein ELBA Hotline</span>
+</span>
+</a>
+</li>
+<li>
+<span class="icon-rai_withoutborder" aria-hidden="true"></span>
+<a class="arrow-link" href="/de/online-banking/sperre-veranlassen.html" target="_self">
+<span class="icon-paging_arrow_right" data-aria="hidden"></span>
+<span class="text-link">
+<span>SperrHotline</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="schnelleinstiegTeaser aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+<div class="schnelleinstieg-teaser">
+<h2 class="title">Ihr direkter Zugang zu</h2>
+<p></p>
+<ul class="hide-list-items">
+<li>
+<a class="arrow-link" href="/de/meine-bank/kundenservice/barrierefreiheit.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Barrierefreiheit</span>
+</span>
+</a>
+</li>
+<li>
+<a class="arrow-link" href="/de/privatkunden/konto.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Konto eröffnen</span>
+</span>
+</a>
+</li>
+<li>
+<a class="arrow-link" href="/de/online-banking/sicherheit/hilfe-im-notfall.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Hilfe im Notfall</span>
+</span>
+</a>
+</li>
+<li>
+<a class="arrow-link" href="/de/meine-bank/raiffeisen-bankengruppe/fatca---crs.html" target="_self">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>FATCA/CRS</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="appTeaser aem-GridColumn--offset--medium--0 aem-GridColumn--medium--none aem-GridColumn--default--none aem-GridColumn--medium--4 aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+<div class="component-app-teaser ">
+<h2 class="title">Mobile App</h2>
+<div>
+<figure class="component-image">
+<div class="image-wrapper">
+<picture>
+<source media="(min-width: 1220px)" data-srcset="/de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/lg/1749129654500/Elba_App_Footer_737x415.png 1x, /de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/lg2/1749129654500/Elba_App_Footer_737x415.png 2x"/>
+<source media="(min-width: 768px) and (max-width: 1219px)" data-srcset="/de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/md/1749129654500/Elba_App_Footer_737x415.png 1x, /de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/md2/1749129654500/Elba_App_Footer_737x415.png 2x"/>
+<source media="(min-width: 576px) and (max-width: 767px)" data-srcset="/de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/sm/1749129654500/Elba_App_Footer_737x415.png 1x, /de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/sm2/1749129654500/Elba_App_Footer_737x415.png 2x"/>
+<source media="(max-width: 575px)" data-srcset="/de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/xs/1749129654500/Elba_App_Footer_737x415.png 1x, /de/config/footer-config/jcr:content/root/responsivegrid_1321003610/appteaser/image.imgTransformer/appTeaser/xs2/1749129654500/Elba_App_Footer_737x415.png 2x"/>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="3 Smartphones, auf den Displays sind verschiedene Bereiche der Mein ELBA App zu sehen" class="lazyload"/>
+</picture>
+<div class="image-overlay">
+<span class="image-copyright"></span>
+</div>
+</div>
+</figure>
+</div>
+<div class="btn-container">
+<a class="google-play-store" href="https://play.google.com/store/apps/details?id=at.rsg.pfp" target="_blank" rel="noopener noreferrer" title="zum Google Play Store">
+<img src="/apps/settings/wcm/designs/cms/clientlib-theme-main/images/google_play_de.svg" alt="zum Google Play Store"/>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a class="app-store" href="https://apps.apple.com/at/app/mein-elba-app/id1370298530" target="_blank" rel="noopener noreferrer" title="zum AppStore">
+<img src="/apps/settings/wcm/designs/cms/clientlib-theme-main/images/app_store_de.svg" alt="zum AppStore"/>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+<a class="huawei-appGallery" href="https://appgallery.huawei.com/#/app/C102560607" target="_blank" rel="noopener noreferrer" title="HUAWEI AppGallery">
+<img src="/apps/settings/wcm/designs/cms/clientlib-theme-main/images/huawei_de.svg" alt="HUAWEI AppGallery"/>
+<span aria-label="öffnet in neuem Fenster">
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<nav class="footer-nav" aria-label="Fusszeilen Navigation">
+<div class="container">
+<ul class="footer-links">
+<li>
+<a href="/de/meine-bank/raiffeisen-bankengruppe/impressum.html" target="_self" class="arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Impressum</span>
+</span>
+</a>
+</li>
+<li>
+<a href="/de/meine-bank/raiffeisen-bankengruppe/agb.html" target="_self" class="arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>AGB</span>
+</span>
+</a>
+</li>
+<li>
+<a href="/de/meine-bank/raiffeisen-bankengruppe/datenschutz.html" target="_self" class="arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Datenschutz</span>
+</span>
+</a>
+</li>
+<li>
+<a href="/de/meine-bank/raiffeisen-bankengruppe/disclaimer.html" target="_self" class="arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Disclaimer</span>
+</span>
+</a>
+</li>
+<li>
+<a href="/de/meine-bank/kundenservice/barrierefreiheit/barrierefreiheitserklaerung.html" target="_self" class="arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Barrierefreiheitserklärung</span>
+</span>
+</a>
+</li>
+<li>
+<a href="https://developer.raiffeisen.at" target="_blank" class="arrow-link" rel="noopener noreferrer">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<span class="text-link">
+<span>Developer Portal</span>
+<span class="icon-open_link position-relative" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</li>
+<li>
+<span class="ot-footer-arrow-link">
+<span class="icon-paging_arrow_right" aria-hidden="true"></span>
+<a href="javascript:void(0)" id="ot-footer-sdk-btn" class="ot-sdk-show-settings text-link">
+Cookie Einstellungen
+</a>
+</span>
+</li>
+</ul>
+<div class="copyright">1.218.2 © Raiffeisen 2026</div>
+</div>
+</nav>
+</div>
+</footer>
+<div class="component-quickbar ">
+<div class="quickbar-holder">
+<button type="button" class="mobile-quickbar-opener d-md-none">
+<span class="icon icon-points_navigation" aria-hidden="true"></span>
+<span class="icon icon-close" aria-hidden="true"></span>
+<span class="visually-hidden">Quickbar öffnen</span>
+</button>
+<div class="quickbar-elements" role="toolbar">
+<div class="quickbar-btn">
+<div class=" ">
+<div>
+<a href="https://mein.elba.raiffeisen.at" class="btn icon" rel="noopener noreferrer" target="_blank">
+<span class="quickbar-icon icon-lock2" aria-hidden="true"></span>
+<span class="btn-text">
+<span>Mein ELBA Login</span>
+<span class="icon-open_link" aria-label="öffnet in neuem Fenster">
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="quickbar-btn">
+<div class=" ">
+<div>
+<a href="/de/meine-bank/kundenservice/kontakt.html" class="btn icon" target="_self">
+<span class="quickbar-icon icon-assigment" aria-hidden="true"></span>
+<span class="btn-text">
+<span>Kontaktformular</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="quickbar-btn">
+<div class=" ">
+<div>
+<a href="/de/online-banking/sicherheit/hilfe-im-notfall.html" class="btn btn-default" target="_self">
+<span class="quickbar-icon icon-alert_circle" aria-hidden="true"></span>
+<span class="btn-text">
+<span>Hilfe im Notfall</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+<div class="quickbar-btn">
+<div class=" ">
+<div>
+<rwm-cta-redirect-to-branch btn-style="btn-primary" icon="icon-map" params="{&#34;filter&#34;:[],&#34;ctaPrimary&#34;:{&#34;action&#34;:&#34;redirect&#34;,&#34;params&#34;:{&#34;linkTarget&#34;:&#34;_self&#34;,&#34;linkText&#34;:&#34;zum Angebot&#34;}},&#34;forwardButton&#34;:{&#34;buttonStyle&#34;:&#34;btn-primary&#34;,&#34;icon&#34;:&#34;icon-map&#34;,&#34;linkText&#34;:&#34;Zu meiner Bank&#34;},&#34;ctaSecondary&#34;:null,&#34;suffix&#34;:&#34;/privatkunden&#34;,&#34;hideRoutePlaner&#34;:false,&#34;headline&#34;:&#34;In welcher Raiffeisenbank möchten Sie Ihr Produkt abschließen?&#34;,&#34;hideMap&#34;:false}"></rwm-cta-redirect-to-branch>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="device-selector-wrapper">
+<div class="device-selector device-xs" data-devicetype="xs"></div>
+<div class="device-selector device-sm" data-devicetype="sm"></div>
+<div class="device-selector device-md" data-devicetype="md"></div>
+<div class="device-selector device-lg" data-devicetype="lg"></div>
+<div class="device-selector device-xl" data-devicetype="xl"></div>
+</div>
+<script src="/cachableservlets/cssandjschacheservlet.1-218-2-e1b995d6d6691c33404565d49b981583c5fb60372baed231cefc36efecfb4de6/apps/settings/wcm/designs/cms/clientlib-all/videojs.bundle.js" async></script>
+<script src="/cachableservlets/cssandjschacheservlet.1-218-2-e1b995d6d6691c33404565d49b981583c5fb60372baed231cefc36efecfb4de6/apps/settings/wcm/designs/cms/clientlib-all/main.bundle.js" async></script>
+<script>
+    function otCookie(name) {
+      var nameOC = "OptanonConsent=";
+      var ca = document.cookie ? document.cookie.split(';') : [];
+      var cookie;
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameOC) == 0) {
+          cookie = c.substring(nameOC.length, c.length);
+        }
+      }
+      if (cookie) {
+        if (localStorage.getItem('ot') !== null) {
+          var queryMap = JSON.parse(localStorage.getItem('ot'));
+          return queryMap['data'].includes(name);
+        }
+      } else {
+        localStorage.removeItem('ot')
+      }
+      return null;
+    }
+
+    var count = 0;
+    var scriptLoaded = setInterval(function () {
+      count++;
+      if (count >= 100) {
+        clearInterval(scriptLoaded);
+      }
+      if (typeof _wa.utils !== 'object') {
+        return;
+      }
+      clearInterval(scriptLoaded);
+      try {
+        _wa.set({
+          evt: "pageview",
+          pti: "Privatkunden",
+          pp: "/de/privatkunden.html",
+          ccc: otCookie('C0004'),
+          pqu: window.location.search.substring(1),
+          env: "prod"
+          
+          
+        });
+        _wa.send("event");
+      } catch (e) {
+        console.log(e);
+      }
+    }, 30);
+  </script>
+<script>_satellite.pageBottom();</script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.56934e461ff6c436f962a5990541a527.js"></script>
+</body>
+</html>
